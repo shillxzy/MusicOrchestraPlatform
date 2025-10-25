@@ -9,16 +9,13 @@ namespace OrderService.DAL.UOW
 {
     public interface IUnitOfWork : IDisposable
     {
-        public interface IUnitOfWork : IDisposable
-        {
-            ICustomerRepository Customers { get; }
-            IProductRepository Products { get; }
-            IOrderRepository Orders { get; }
-            IOrderItemRepository OrderItems { get; }
+        ICustomerRepository Customers { get; }
+        IProductRepository Products { get; }
+        IOrderRepository Orders { get; }
+        IOrderItemRepository OrderItems { get; }
 
-            Task BeginTransactionAsync();
-            Task CommitAsync();
-            Task RollbackAsync();
-        }
+        Task BeginTransactionAsync();
+        Task CommitAsync();
+        Task RollbackAsync();
     }
 }

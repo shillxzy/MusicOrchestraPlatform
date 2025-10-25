@@ -14,5 +14,6 @@ namespace OrderService.DAL.Repositories.Interfaces
         Task<int> AddAsync(Order order);
         Task UpdateAsync(Order order);
         Task DeleteAsync(int id);
+        Task GetByIdAsync(object orderId);
     }
 }
