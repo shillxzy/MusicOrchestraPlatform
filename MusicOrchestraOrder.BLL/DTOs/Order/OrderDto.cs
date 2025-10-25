@@ -20,3 +20,4 @@ namespace OrderService.BLL.DTOs.Order
         public List<OrderItemDto> OrderItems { get; set; } = new();
     }
 }
+

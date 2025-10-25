@@ -10,4 +10,14 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MusicOrchestraOrder.BLL\OrderService.BLL.csproj" />
+    <ProjectReference Include="..\MusicOrchestraOrder.DAL\OrderService.DAL.csproj" />
+    <ProjectReference Include="..\MusicOrchestraOrder.Domain\OrderService.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

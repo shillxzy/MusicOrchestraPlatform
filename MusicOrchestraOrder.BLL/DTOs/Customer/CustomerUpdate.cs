@@ -13,3 +13,4 @@ namespace OrderService.BLL.DTOs.Customer
         public string Email { get; set; } = null!;
     }
 }
+

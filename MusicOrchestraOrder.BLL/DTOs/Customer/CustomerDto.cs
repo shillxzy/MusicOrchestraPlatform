@@ -15,3 +15,4 @@ namespace OrderService.BLL.DTOs.Customer
         public DateTime? UpdatedAt { get; set; }
     }
 }
+

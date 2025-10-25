@@ -11,7 +11,7 @@ namespace OrderService.DAL.UOW
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly NpgsqlConnectFactory _connectionFactory;
+        private readonly IConnectFactory _connectionFactory;
         private IDbConnection? _connection;
         private IDbTransaction? _transaction;
 
@@ -20,7 +20,7 @@ namespace OrderService.DAL.UOW
         public IOrderRepository Orders { get; }
         public IOrderItemRepository OrderItems { get; }
 
-        public UnitOfWork(NpgsqlConnectFactory connectionFactory,
+        public UnitOfWork(IConnectFactory connectionFactory,
                           ICustomerRepository customers,
                           IProductRepository products,
                           IOrderRepository orders,

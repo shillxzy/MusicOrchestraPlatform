@@ -14,3 +14,4 @@ namespace OrderService.BLL.DTOs.Order
         public string Status { get; set; } = "Pending";
     }
 }
+

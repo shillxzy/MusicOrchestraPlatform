@@ -1,0 +1,16 @@
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.DAL\obj\Debug\net8.0\OrderService.DAL.csproj.AssemblyReference.cache
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.DAL\obj\Debug\net8.0\OrderService.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.DAL\obj\Debug\net8.0\OrderService.DAL.AssemblyInfoInputs.cache
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.DAL\obj\Debug\net8.0\OrderService.DAL.AssemblyInfo.cs
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.DAL\obj\Debug\net8.0\OrderService.DAL.csproj.CoreCompileInputs.cache
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.DAL\obj\Debug\net8.0\OrderService.DAL.sourcelink.json
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.DAL\bin\Debug\net8.0\OrderService.DAL.deps.json
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.DAL\bin\Debug\net8.0\OrderService.DAL.dll
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.DAL\bin\Debug\net8.0\OrderService.DAL.pdb
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.DAL\bin\Debug\net8.0\OrderService.Domain.dll
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.DAL\bin\Debug\net8.0\OrderService.Domain.pdb
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.DAL\obj\Debug\net8.0\OrderSer.3B734F22.Up2Date
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.DAL\obj\Debug\net8.0\OrderService.DAL.dll
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.DAL\obj\Debug\net8.0\refint\OrderService.DAL.dll
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.DAL\obj\Debug\net8.0\OrderService.DAL.pdb
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.DAL\obj\Debug\net8.0\ref\OrderService.DAL.dll

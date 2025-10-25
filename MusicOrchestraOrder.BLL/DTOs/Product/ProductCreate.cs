@@ -12,3 +12,4 @@ namespace OrderService.BLL.DTOs.Product
         public decimal Price { get; set; }
     }
 }
+

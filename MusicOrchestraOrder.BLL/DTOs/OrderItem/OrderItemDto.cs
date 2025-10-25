@@ -17,3 +17,4 @@ namespace OrderService.BLL.DTOs.OrderItem
         public ProductDto? Product { get; set; }
     }
 }
+
