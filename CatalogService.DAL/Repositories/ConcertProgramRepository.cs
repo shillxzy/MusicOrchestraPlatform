@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace CatalogService.DAL.Repositories
 {
-    public class ConcertProgramRepository : IConcertProgramRepository
+    public class ConcertProgramRepository : GenericRepository<ConcertProgram>, IConcertProgramRepository
     {
         private readonly CatalogDbContext _context;
 
-        public ConcertProgramRepository(CatalogDbContext context)
+        public ConcertProgramRepository(CatalogDbContext context) : base(context)
         {
             _context = context;
         }

@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace CatalogService.DAL.Repositories
 {
-    public class InstrumentImageRepository : IInstrumentImageRepository
+    public class InstrumentImageRepository : GenericRepository<InstrumentImage>, IInstrumentImageRepository
     {
         private readonly CatalogDbContext _context;
 
-        public InstrumentImageRepository(CatalogDbContext context)
+        public InstrumentImageRepository(CatalogDbContext context) : base(context)
         {
             _context = context;
         }

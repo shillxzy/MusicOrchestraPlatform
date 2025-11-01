@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CatalogService.DAL.Repositories.Interfaces
 {
-    public interface IInstrumentImageRepository
+    public interface IInstrumentImageRepository : IGenericRepository<InstrumentImage>
     {
         Task<IEnumerable<InstrumentImage>> GetAllAsync();
         Task<InstrumentImage?> GetByIdAsync(int id);

@@ -7,7 +7,7 @@ using CatalogService.Domain.Entities;
 
 namespace CatalogService.DAL.Repositories.Interfaces
 {
-    public interface IPerformerRepository
+    public interface IPerformerRepository : IGenericRepository<Performer>
     {
         Task<IEnumerable<Performer>> GetAllAsync();
         Task<Performer?> GetByIdAsync(int id);

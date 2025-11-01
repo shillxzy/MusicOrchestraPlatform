@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CatalogService.DAL.Repositories
 {
-    public class InstrumentRepository : IInstrumentRepository
+    public class InstrumentRepository : GenericRepository<Instrument>, IInstrumentRepository
     {
         private readonly CatalogDbContext _context;
 
-        public InstrumentRepository(CatalogDbContext context)
+        public InstrumentRepository(CatalogDbContext context) : base(context)
         {
             _context = context;
         }
