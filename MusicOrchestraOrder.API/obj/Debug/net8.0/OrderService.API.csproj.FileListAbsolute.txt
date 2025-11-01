@@ -48,3 +48,4 @@ C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.API\obj\D
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.API\obj\Debug\net8.0\OrderService.API.pdb
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.API\obj\Debug\net8.0\OrderService.API.genruntimeconfig.cache
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.API\obj\Debug\net8.0\ref\OrderService.API.dll
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.API\obj\Debug\net8.0\OrderService.API.MvcApplicationPartsAssemblyInfo.cs

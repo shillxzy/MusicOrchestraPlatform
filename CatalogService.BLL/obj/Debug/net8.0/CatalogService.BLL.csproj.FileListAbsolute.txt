@@ -1,0 +1,12 @@
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\bin\Debug\net8.0\CatalogService.BLL.deps.json
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\bin\Debug\net8.0\CatalogService.BLL.dll
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\bin\Debug\net8.0\CatalogService.BLL.pdb
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\CatalogService.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\CatalogService.BLL.AssemblyInfoInputs.cache
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\CatalogService.BLL.AssemblyInfo.cs
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\CatalogService.BLL.csproj.CoreCompileInputs.cache
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\CatalogService.BLL.sourcelink.json
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\CatalogService.BLL.dll
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\refint\CatalogService.BLL.dll
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\CatalogService.BLL.pdb
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\ref\CatalogService.BLL.dll

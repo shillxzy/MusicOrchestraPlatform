@@ -1,0 +1,6 @@
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.DAL\obj\Debug\net8.0\CatalogService.DAL.csproj.AssemblyReference.cache
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.DAL\obj\Debug\net8.0\CatalogService.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.DAL\obj\Debug\net8.0\CatalogService.DAL.AssemblyInfoInputs.cache
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.DAL\obj\Debug\net8.0\CatalogService.DAL.AssemblyInfo.cs
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.DAL\obj\Debug\net8.0\CatalogService.DAL.csproj.CoreCompileInputs.cache
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.DAL\obj\Debug\net8.0\CatalogService.DAL.sourcelink.json

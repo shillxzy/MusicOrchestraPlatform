@@ -3,40 +3,100 @@
   "WorkspaceRootPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5AAD8C1-AAAA-4949-A3BB-8EA795DF214A}|MusicOrchestraOrder.DAL\\OrderService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.dal\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5AAD8C1-AAAA-4949-A3BB-8EA795DF214A}|MusicOrchestraOrder.DAL\\OrderService.DAL.csproj|solutionrelative:musicorchestraorder.dal\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.dal\\extensions\\queryablepagingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|solutionrelative:catalogservice.dal\\extensions\\queryablepagingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5AAD8C1-AAAA-4949-A3BB-8EA795DF214A}|MusicOrchestraOrder.DAL\\OrderService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.dal\\repositories\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5AAD8C1-AAAA-4949-A3BB-8EA795DF214A}|MusicOrchestraOrder.DAL\\OrderService.DAL.csproj|solutionrelative:musicorchestraorder.dal\\repositories\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBB6F6F2-0705-47C5-B107-0C2C91A40DAC}|CatalogService.Domain\\CatalogService.Domain.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.domain\\entities\\parameters\\sortparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB6F6F2-0705-47C5-B107-0C2C91A40DAC}|CatalogService.Domain\\CatalogService.Domain.csproj|solutionrelative:catalogservice.domain\\entities\\parameters\\sortparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D652DC2-4F41-44A1-88DC-BEEAB873545C}|MusicOrchestraOrder.API\\OrderService.API.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D652DC2-4F41-44A1-88DC-BEEAB873545C}|MusicOrchestraOrder.API\\OrderService.API.csproj|solutionrelative:musicorchestraorder.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBB6F6F2-0705-47C5-B107-0C2C91A40DAC}|CatalogService.Domain\\CatalogService.Domain.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.domain\\entities\\parameters\\pagedparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB6F6F2-0705-47C5-B107-0C2C91A40DAC}|CatalogService.Domain\\CatalogService.Domain.csproj|solutionrelative:catalogservice.domain\\entities\\parameters\\pagedparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB6F6F2-0705-47C5-B107-0C2C91A40DAC}|CatalogService.Domain\\CatalogService.Domain.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.domain\\entities\\parameters\\querystringparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB6F6F2-0705-47C5-B107-0C2C91A40DAC}|CatalogService.Domain\\CatalogService.Domain.csproj|solutionrelative:catalogservice.domain\\entities\\parameters\\querystringparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.dal\\extensions\\queryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|solutionrelative:catalogservice.dal\\extensions\\queryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.dal\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|solutionrelative:catalogservice.dal\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.dal\\uow\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|solutionrelative:catalogservice.dal\\uow\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.dal\\helpers\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|solutionrelative:catalogservice.dal\\helpers\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.dal\\helpers\\sorthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|solutionrelative:catalogservice.dal\\helpers\\sorthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.dal\\helpers\\isorthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|solutionrelative:catalogservice.dal\\helpers\\isorthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.dal\\data\\catalogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|solutionrelative:catalogservice.dal\\data\\catalogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.dal\\configuration\\instrumentimageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|solutionrelative:catalogservice.dal\\configuration\\instrumentimageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.dal\\configuration\\performerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|solutionrelative:catalogservice.dal\\configuration\\performerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB6F6F2-0705-47C5-B107-0C2C91A40DAC}|CatalogService.Domain\\CatalogService.Domain.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.domain\\entities\\instrumentimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB6F6F2-0705-47C5-B107-0C2C91A40DAC}|CatalogService.Domain\\CatalogService.Domain.csproj|solutionrelative:catalogservice.domain\\entities\\instrumentimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.dal\\configuration\\concertprogramconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|solutionrelative:catalogservice.dal\\configuration\\concertprogramconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.dal\\configuration\\compositionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|solutionrelative:catalogservice.dal\\configuration\\compositionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.dal\\configuration\\instrumentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|solutionrelative:catalogservice.dal\\configuration\\instrumentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB6F6F2-0705-47C5-B107-0C2C91A40DAC}|CatalogService.Domain\\CatalogService.Domain.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.domain\\entities\\instrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB6F6F2-0705-47C5-B107-0C2C91A40DAC}|CatalogService.Domain\\CatalogService.Domain.csproj|solutionrelative:catalogservice.domain\\entities\\instrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{875B1CA9-431D-4E8D-BEB0-55DDECD2937F}|MusicOrchestraOrder.BLL\\OrderService.BLL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.bll\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{875B1CA9-431D-4E8D-BEB0-55DDECD2937F}|MusicOrchestraOrder.BLL\\OrderService.BLL.csproj|solutionrelative:musicorchestraorder.bll\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{875B1CA9-431D-4E8D-BEB0-55DDECD2937F}|MusicOrchestraOrder.BLL\\OrderService.BLL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.bll\\services\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875B1CA9-431D-4E8D-BEB0-55DDECD2937F}|MusicOrchestraOrder.BLL\\OrderService.BLL.csproj|solutionrelative:musicorchestraorder.bll\\services\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.dal\\catalogservice.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2B28AB2E-8096-496F-B182-B3D85B23A167}|CatalogService.DAL\\CatalogService.DAL.csproj|solutionrelative:catalogservice.dal\\catalogservice.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB6F6F2-0705-47C5-B107-0C2C91A40DAC}|CatalogService.Domain\\CatalogService.Domain.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\catalogservice.domain\\entities\\composition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB6F6F2-0705-47C5-B107-0C2C91A40DAC}|CatalogService.Domain\\CatalogService.Domain.csproj|solutionrelative:catalogservice.domain\\entities\\composition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5AAD8C1-AAAA-4949-A3BB-8EA795DF214A}|MusicOrchestraOrder.DAL\\OrderService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.dal\\repositories\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5AAD8C1-AAAA-4949-A3BB-8EA795DF214A}|MusicOrchestraOrder.DAL\\OrderService.DAL.csproj|solutionrelative:musicorchestraorder.dal\\repositories\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{875B1CA9-431D-4E8D-BEB0-55DDECD2937F}|MusicOrchestraOrder.BLL\\OrderService.BLL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.bll\\mappings\\customermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{875B1CA9-431D-4E8D-BEB0-55DDECD2937F}|MusicOrchestraOrder.BLL\\OrderService.BLL.csproj|solutionrelative:musicorchestraorder.bll\\mappings\\customermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D652DC2-4F41-44A1-88DC-BEEAB873545C}|MusicOrchestraOrder.API\\OrderService.API.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D652DC2-4F41-44A1-88DC-BEEAB873545C}|MusicOrchestraOrder.API\\OrderService.API.csproj|solutionrelative:musicorchestraorder.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D652DC2-4F41-44A1-88DC-BEEAB873545C}|MusicOrchestraOrder.API\\OrderService.API.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.api\\controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D652DC2-4F41-44A1-88DC-BEEAB873545C}|MusicOrchestraOrder.API\\OrderService.API.csproj|solutionrelative:musicorchestraorder.api\\controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D652DC2-4F41-44A1-88DC-BEEAB873545C}|MusicOrchestraOrder.API\\OrderService.API.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D652DC2-4F41-44A1-88DC-BEEAB873545C}|MusicOrchestraOrder.API\\OrderService.API.csproj|solutionrelative:musicorchestraorder.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D652DC2-4F41-44A1-88DC-BEEAB873545C}|MusicOrchestraOrder.API\\OrderService.API.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D652DC2-4F41-44A1-88DC-BEEAB873545C}|MusicOrchestraOrder.API\\OrderService.API.csproj|solutionrelative:musicorchestraorder.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{875B1CA9-431D-4E8D-BEB0-55DDECD2937F}|MusicOrchestraOrder.BLL\\OrderService.BLL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{875B1CA9-431D-4E8D-BEB0-55DDECD2937F}|MusicOrchestraOrder.BLL\\OrderService.BLL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.bll\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{875B1CA9-431D-4E8D-BEB0-55DDECD2937F}|MusicOrchestraOrder.BLL\\OrderService.BLL.csproj|solutionrelative:musicorchestraorder.bll\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{875B1CA9-431D-4E8D-BEB0-55DDECD2937F}|MusicOrchestraOrder.BLL\\OrderService.BLL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.bll\\services\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{875B1CA9-431D-4E8D-BEB0-55DDECD2937F}|MusicOrchestraOrder.BLL\\OrderService.BLL.csproj|solutionrelative:musicorchestraorder.bll\\services\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{875B1CA9-431D-4E8D-BEB0-55DDECD2937F}|MusicOrchestraOrder.BLL\\OrderService.BLL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.bll\\services\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,10 +179,6 @@
       "RelativeMoniker": "D:0:0:{E5AAD8C1-AAAA-4949-A3BB-8EA795DF214A}|MusicOrchestraOrder.DAL\\OrderService.DAL.csproj|solutionrelative:musicorchestraorder.dal\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5AAD8C1-AAAA-4949-A3BB-8EA795DF214A}|MusicOrchestraOrder.DAL\\OrderService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.dal\\infrastructure\\npgsqlconnectfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5AAD8C1-AAAA-4949-A3BB-8EA795DF214A}|MusicOrchestraOrder.DAL\\OrderService.DAL.csproj|solutionrelative:musicorchestraorder.dal\\infrastructure\\npgsqlconnectfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E5AAD8C1-AAAA-4949-A3BB-8EA795DF214A}|MusicOrchestraOrder.DAL\\OrderService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.dal\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5AAD8C1-AAAA-4949-A3BB-8EA795DF214A}|MusicOrchestraOrder.DAL\\OrderService.DAL.csproj|solutionrelative:musicorchestraorder.dal\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -163,10 +215,6 @@
       "RelativeMoniker": "D:0:0:{DFC8CD98-F4BF-4EBF-80F2-26F4918F60B4}|MusicOrchestraOrder.Domain\\OrderService.Domain.csproj|solutionrelative:musicorchestraorder.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5AAD8C1-AAAA-4949-A3BB-8EA795DF214A}|MusicOrchestraOrder.DAL\\OrderService.DAL.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.dal\\infrastructure\\iconnectfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5AAD8C1-AAAA-4949-A3BB-8EA795DF214A}|MusicOrchestraOrder.DAL\\OrderService.DAL.csproj|solutionrelative:musicorchestraorder.dal\\infrastructure\\iconnectfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DFC8CD98-F4BF-4EBF-80F2-26F4918F60B4}|MusicOrchestraOrder.Domain\\OrderService.Domain.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\musicorchestraorder.domain\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFC8CD98-F4BF-4EBF-80F2-26F4918F60B4}|MusicOrchestraOrder.Domain\\OrderService.Domain.csproj|solutionrelative:musicorchestraorder.domain\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -190,89 +238,258 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "MusicOrchestraOrder.API\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "MusicOrchestraOrder.API\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "SortParameters.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\Parameters\\SortParameters.cs",
+              "RelativeDocumentMoniker": "CatalogService.Domain\\Entities\\Parameters\\SortParameters.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\Parameters\\SortParameters.cs",
+              "RelativeToolTip": "CatalogService.Domain\\Entities\\Parameters\\SortParameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T12:32:05.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderItemController.cs",
-              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\Controllers\\OrderItemController.cs",
-              "RelativeDocumentMoniker": "MusicOrchestraOrder.API\\Controllers\\OrderItemController.cs",
-              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\Controllers\\OrderItemController.cs",
-              "RelativeToolTip": "MusicOrchestraOrder.API\\Controllers\\OrderItemController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T12:32:04.163Z",
+              "WhenOpened": "2025-11-01T11:28:32.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\Program.cs",
-              "RelativeDocumentMoniker": "MusicOrchestraOrder.API\\Program.cs",
-              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\Program.cs",
-              "RelativeToolTip": "MusicOrchestraOrder.API\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEEAAAA9AAAAAAAAAA==",
+              "Title": "PagedParameters.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\Parameters\\PagedParameters.cs",
+              "RelativeDocumentMoniker": "CatalogService.Domain\\Entities\\Parameters\\PagedParameters.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\Parameters\\PagedParameters.cs",
+              "RelativeToolTip": "CatalogService.Domain\\Entities\\Parameters\\PagedParameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T12:30:15.509Z",
+              "WhenOpened": "2025-11-01T11:28:12.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\OrderService.cs",
-              "RelativeToolTip": "MusicOrchestraOrder.BLL\\Services\\OrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ4AAAAAAAAAAAAAAA==",
+              "Title": "QueryStringParameters.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\Parameters\\QueryStringParameters.cs",
+              "RelativeDocumentMoniker": "CatalogService.Domain\\Entities\\Parameters\\QueryStringParameters.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\Parameters\\QueryStringParameters.cs",
+              "RelativeToolTip": "CatalogService.Domain\\Entities\\Parameters\\QueryStringParameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T12:14:51.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerMappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Mappings\\CustomerMappingProfile.cs",
-              "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Mappings\\CustomerMappingProfile.cs",
-              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Mappings\\CustomerMappingProfile.cs",
-              "RelativeToolTip": "MusicOrchestraOrder.BLL\\Mappings\\CustomerMappingProfile.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T12:14:15.912Z",
+              "WhenOpened": "2025-11-01T11:27:56.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Repositories\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Repositories\\OrderRepository.cs",
-              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Repositories\\OrderRepository.cs",
-              "RelativeToolTip": "MusicOrchestraOrder.DAL\\Repositories\\OrderRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "QueryablePagingExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Extensions\\QueryablePagingExtensions.cs",
+              "RelativeDocumentMoniker": "CatalogService.DAL\\Extensions\\QueryablePagingExtensions.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Extensions\\QueryablePagingExtensions.cs",
+              "RelativeToolTip": "CatalogService.DAL\\Extensions\\QueryablePagingExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T12:02:38.756Z",
+              "WhenOpened": "2025-11-01T11:26:10.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "QueryableExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Extensions\\QueryableExtensions.cs",
+              "RelativeDocumentMoniker": "CatalogService.DAL\\Extensions\\QueryableExtensions.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Extensions\\QueryableExtensions.cs",
+              "RelativeToolTip": "CatalogService.DAL\\Extensions\\QueryableExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T11:25:40.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\UOW\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "CatalogService.DAL\\UOW\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\UOW\\UnitOfWork.cs",
+              "RelativeToolTip": "CatalogService.DAL\\UOW\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T11:24:11.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\UOW\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "CatalogService.DAL\\UOW\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\UOW\\IUnitOfWork.cs",
+              "RelativeToolTip": "CatalogService.DAL\\UOW\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T11:23:55.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PagedList.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Helpers\\PagedList.cs",
+              "RelativeDocumentMoniker": "CatalogService.DAL\\Helpers\\PagedList.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Helpers\\PagedList.cs",
+              "RelativeToolTip": "CatalogService.DAL\\Helpers\\PagedList.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T11:19:30.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SortHelper.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Helpers\\SortHelper.cs",
+              "RelativeDocumentMoniker": "CatalogService.DAL\\Helpers\\SortHelper.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Helpers\\SortHelper.cs",
+              "RelativeToolTip": "CatalogService.DAL\\Helpers\\SortHelper.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T11:18:17.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ISortHelper.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Helpers\\ISortHelper.cs",
+              "RelativeDocumentMoniker": "CatalogService.DAL\\Helpers\\ISortHelper.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Helpers\\ISortHelper.cs",
+              "RelativeToolTip": "CatalogService.DAL\\Helpers\\ISortHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T11:18:05.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CatalogDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Data\\CatalogDbContext.cs",
+              "RelativeDocumentMoniker": "CatalogService.DAL\\Data\\CatalogDbContext.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Data\\CatalogDbContext.cs",
+              "RelativeToolTip": "CatalogService.DAL\\Data\\CatalogDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T11:16:16.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InstrumentImageConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Configuration\\InstrumentImageConfiguration.cs",
+              "RelativeDocumentMoniker": "CatalogService.DAL\\Configuration\\InstrumentImageConfiguration.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Configuration\\InstrumentImageConfiguration.cs",
+              "RelativeToolTip": "CatalogService.DAL\\Configuration\\InstrumentImageConfiguration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T11:14:48.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConcertProgramConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Configuration\\ConcertProgramConfiguration.cs",
+              "RelativeDocumentMoniker": "CatalogService.DAL\\Configuration\\ConcertProgramConfiguration.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Configuration\\ConcertProgramConfiguration.cs",
+              "RelativeToolTip": "CatalogService.DAL\\Configuration\\ConcertProgramConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T11:14:33.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CompositionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Configuration\\CompositionConfiguration.cs",
+              "RelativeDocumentMoniker": "CatalogService.DAL\\Configuration\\CompositionConfiguration.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Configuration\\CompositionConfiguration.cs",
+              "RelativeToolTip": "CatalogService.DAL\\Configuration\\CompositionConfiguration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T11:14:20.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PerformerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Configuration\\PerformerConfiguration.cs",
+              "RelativeDocumentMoniker": "CatalogService.DAL\\Configuration\\PerformerConfiguration.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Configuration\\PerformerConfiguration.cs",
+              "RelativeToolTip": "CatalogService.DAL\\Configuration\\PerformerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T11:14:05.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Instrument.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\Instrument.cs",
+              "RelativeDocumentMoniker": "CatalogService.Domain\\Entities\\Instrument.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\Instrument.cs",
+              "RelativeToolTip": "CatalogService.Domain\\Entities\\Instrument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T11:13:14.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InstrumentImage.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\InstrumentImage.cs",
+              "RelativeDocumentMoniker": "CatalogService.Domain\\Entities\\InstrumentImage.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\InstrumentImage.cs",
+              "RelativeToolTip": "CatalogService.Domain\\Entities\\InstrumentImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T15:50:59.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CatalogService.DAL",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\CatalogService.DAL.csproj",
+              "RelativeDocumentMoniker": "CatalogService.DAL\\CatalogService.DAL.csproj",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\CatalogService.DAL.csproj",
+              "RelativeToolTip": "CatalogService.DAL\\CatalogService.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-01T11:11:21.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InstrumentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Configuration\\InstrumentConfiguration.cs",
+              "RelativeDocumentMoniker": "CatalogService.DAL\\Configuration\\InstrumentConfiguration.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Configuration\\InstrumentConfiguration.cs",
+              "RelativeToolTip": "CatalogService.DAL\\Configuration\\InstrumentConfiguration.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAApwCIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T11:11:24.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Repositories\\Interfaces\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Repositories\\Interfaces\\IOrderRepository.cs",
@@ -280,51 +497,49 @@
               "RelativeToolTip": "MusicOrchestraOrder.DAL\\Repositories\\Interfaces\\IOrderRepository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T11:54:47.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T11:54:47.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "MusicOrchestraOrder.API\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "MusicOrchestraOrder.API\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\OrderService.cs",
+              "RelativeToolTip": "MusicOrchestraOrder.BLL\\Services\\OrderService.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAlwJ8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T12:32:02.717Z",
+              "WhenOpened": "2025-10-25T12:14:51.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "MusicOrchestraOrder.API\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "MusicOrchestraOrder.API\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "Composition.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\Composition.cs",
+              "RelativeDocumentMoniker": "CatalogService.Domain\\Entities\\Composition.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\Composition.cs",
+              "RelativeToolTip": "CatalogService.Domain\\Entities\\Composition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T12:31:59.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T15:50:25.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GlobalExceptionHandlingMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
-              "RelativeDocumentMoniker": "MusicOrchestraOrder.API\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
-              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
-              "RelativeToolTip": "MusicOrchestraOrder.API\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "OrderItemService.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\OrderItemService.cs",
+              "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\OrderItemService.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\OrderItemService.cs",
+              "RelativeToolTip": "MusicOrchestraOrder.BLL\\Services\\OrderItemService.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAApwHUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T12:26:12.508Z",
+              "WhenOpened": "2025-10-25T12:13:43.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 24,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\ProductService.cs",
@@ -332,12 +547,35 @@
               "RelativeToolTip": "MusicOrchestraOrder.BLL\\Services\\ProductService.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T12:14:48.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T12:14:48.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
+              "Title": "CustomerMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Mappings\\CustomerMappingProfile.cs",
+              "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Mappings\\CustomerMappingProfile.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Mappings\\CustomerMappingProfile.cs",
+              "RelativeToolTip": "MusicOrchestraOrder.BLL\\Mappings\\CustomerMappingProfile.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T12:14:15.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GlobalExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "MusicOrchestraOrder.API\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "MusicOrchestraOrder.API\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T12:26:12.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\Interfaces\\IProductService.cs",
@@ -349,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 29,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\Interfaces\\IOrderService.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\Interfaces\\IOrderService.cs",
@@ -361,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 28,
               "Title": "IOrderItemService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\Interfaces\\IOrderItemService.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\Interfaces\\IOrderItemService.cs",
@@ -373,19 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "OrderItemService.cs",
-              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\OrderItemService.cs",
-              "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\OrderItemService.cs",
-              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\OrderItemService.cs",
-              "RelativeToolTip": "MusicOrchestraOrder.BLL\\Services\\OrderItemService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T12:13:43.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 26,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\CustomerService.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\CustomerService.cs",
@@ -397,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 31,
               "Title": "ProductUpdate.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Product\\ProductUpdate.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Product\\ProductUpdate.cs",
@@ -409,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 32,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Product\\ProductDto.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Product\\ProductDto.cs",
@@ -421,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 27,
               "Title": "ICustomerService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\Interfaces\\ICustomerService.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\Interfaces\\ICustomerService.cs",
@@ -433,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 33,
               "Title": "ProductCreate.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Product\\ProductCreate.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Product\\ProductCreate.cs",
@@ -445,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 34,
               "Title": "OrderItemCreate.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\OrderItem\\OrderItemCreate.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\OrderItem\\OrderItemCreate.cs",
@@ -457,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 35,
               "Title": "OrderUpdate.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Order\\OrderUpdate.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Order\\OrderUpdate.cs",
@@ -469,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 36,
               "Title": "OrderDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Order\\OrderDto.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Order\\OrderDto.cs",
@@ -481,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 37,
               "Title": "OrderCreate.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Order\\OrderCreate.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Order\\OrderCreate.cs",
@@ -493,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 38,
               "Title": "CustomerUpdate.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Customer\\CustomerUpdate.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Customer\\CustomerUpdate.cs",
@@ -505,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 39,
               "Title": "CustomerDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Customer\\CustomerDto.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Customer\\CustomerDto.cs",
@@ -517,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 40,
               "Title": "CustomerCreate.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Customer\\CustomerCreate.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Customer\\CustomerCreate.cs",
@@ -529,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 42,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Repositories\\ProductRepository.cs",
@@ -541,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 41,
               "Title": "OrderItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Repositories\\OrderItemRepository.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Repositories\\OrderItemRepository.cs",
@@ -553,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 43,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Repositories\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Repositories\\CustomerRepository.cs",
@@ -565,19 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "NpgsqlConnectFactory.cs",
-              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Infrastructure\\NpgsqlConnectFactory.cs",
-              "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Infrastructure\\NpgsqlConnectFactory.cs",
-              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Infrastructure\\NpgsqlConnectFactory.cs",
-              "RelativeToolTip": "MusicOrchestraOrder.DAL\\Infrastructure\\NpgsqlConnectFactory.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T11:41:54.255Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 46,
               "Title": "IOrderItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Repositories\\Interfaces\\IOrderItemRepository.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Repositories\\Interfaces\\IOrderItemRepository.cs",
@@ -589,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 47,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Repositories\\Interfaces\\IProductRepository.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Repositories\\Interfaces\\IProductRepository.cs",
@@ -601,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 45,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\UOW\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\UOW\\IUnitOfWork.cs",
@@ -613,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 44,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\UOW\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\UOW\\UnitOfWork.cs",
@@ -625,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 48,
               "Title": "ICustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Repositories\\Interfaces\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Repositories\\Interfaces\\ICustomerRepository.cs",
@@ -637,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 49,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.Domain\\Entities\\Product.cs",
@@ -649,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 50,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\Entities\\OrderItem.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.Domain\\Entities\\OrderItem.cs",
@@ -661,7 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 51,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.Domain\\Entities\\Order.cs",
@@ -673,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 52,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\Entities\\Customer.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.Domain\\Entities\\Customer.cs",
@@ -685,19 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "IConnectFactory.cs",
-              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Infrastructure\\IConnectFactory.cs",
-              "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Infrastructure\\IConnectFactory.cs",
-              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Infrastructure\\IConnectFactory.cs",
-              "RelativeToolTip": "MusicOrchestraOrder.DAL\\Infrastructure\\IConnectFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T11:41:38.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 53,
               "Title": "ValidationException.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\Exceptions\\ValidationException.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.Domain\\Exceptions\\ValidationException.cs",
@@ -709,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 54,
               "Title": "BusinessConflictException.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\Exceptions\\BusinessConflictException.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.Domain\\Exceptions\\BusinessConflictException.cs",
@@ -721,7 +923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 55,
               "Title": "NotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\Exceptions\\NotFoundException.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.Domain\\Exceptions\\NotFoundException.cs",
@@ -733,7 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 56,
               "Title": "OrderService.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\OrderService.Domain.csproj",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.Domain\\OrderService.Domain.csproj",
@@ -741,7 +943,8 @@
               "RelativeToolTip": "MusicOrchestraOrder.Domain\\OrderService.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-25T11:04:55.302Z"
+              "WhenOpened": "2025-10-25T11:04:55.302Z",
+              "EditorCaption": ""
             }
           ]
         }

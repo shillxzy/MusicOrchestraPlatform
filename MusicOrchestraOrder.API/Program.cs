@@ -25,7 +25,7 @@ builder.Services.AddAutoMapper(cfg => cfg.AddProfile<CustomerMappingProfile>());
 
 // Database Connection
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
-                      ?? "Host=localhost;Database=MusicOrchestraDB;Username=postgres;Password=password";
+                      ?? "Host=p-muddy-rice-a4125q9t-pooler.us-east-1.aws.neon.tech;Database=music_orchestra_orders;Username=neondb_owner;Password=npg_hsRQ3OtXoUG4";
 
 builder.Services.AddScoped<IDbConnection>(provider =>
 {
