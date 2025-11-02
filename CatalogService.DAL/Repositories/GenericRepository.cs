@@ -14,7 +14,7 @@ namespace CatalogService.DAL.Repositories
         protected readonly CatalogDbContext _context;
         protected readonly DbSet<T> _dbSet;
 
-        public GenericRepository(CatalogDbContext context) : base(context)
+        public GenericRepository(CatalogDbContext context) 
         {
             _context = context;
             _dbSet = _context.Set<T>();

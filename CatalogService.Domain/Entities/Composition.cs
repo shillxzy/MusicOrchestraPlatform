@@ -10,7 +10,7 @@ namespace CatalogService.Domain.Entities
     {
         public int Id { get; set; }
         public string Title { get; set; } = null!;
-        public double Duration { get; set; } // у хвилинах
+        public double Duration { get; set; } 
         public string Genre { get; set; } = null!;
 
         public ICollection<ConcertProgram> ConcertPrograms { get; set; } = new List<ConcertProgram>();

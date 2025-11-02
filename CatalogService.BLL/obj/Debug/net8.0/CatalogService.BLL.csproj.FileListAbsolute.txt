@@ -1,11 +1,17 @@
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\bin\Debug\net8.0\CatalogService.BLL.deps.json
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\bin\Debug\net8.0\CatalogService.BLL.dll
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\bin\Debug\net8.0\CatalogService.BLL.pdb
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\bin\Debug\net8.0\CatalogService.DAL.dll
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\bin\Debug\net8.0\CatalogService.Domain.dll
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\bin\Debug\net8.0\CatalogService.DAL.pdb
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\bin\Debug\net8.0\CatalogService.Domain.pdb
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\CatalogService.BLL.csproj.AssemblyReference.cache
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\CatalogService.BLL.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\CatalogService.BLL.AssemblyInfoInputs.cache
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\CatalogService.BLL.AssemblyInfo.cs
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\CatalogService.BLL.csproj.CoreCompileInputs.cache
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\CatalogService.BLL.sourcelink.json
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\CatalogS.068589EA.Up2Date
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\CatalogService.BLL.dll
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\refint\CatalogService.BLL.dll
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.BLL\obj\Debug\net8.0\CatalogService.BLL.pdb

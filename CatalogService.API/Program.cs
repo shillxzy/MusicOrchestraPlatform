@@ -1,36 +1,78 @@
+using CatalogService.API.Middlewares;
+using CatalogService.BLL.Services;
+using CatalogService.BLL.Services.Interfaces;
+using CatalogService.BLL.MappingProfiles;
+using CatalogService.BLL.Validators;
+using CatalogService.DAL.Data;
+using CatalogService.DAL.Repositories;
+using CatalogService.DAL.Repositories.Interfaces;
+using CatalogService.DAL.UOW;
+using FluentValidation.AspNetCore;
+using Microsoft.EntityFrameworkCore;
+using AutoMapper;
+using FluentValidation;
+using Npgsql.EntityFrameworkCore.PostgreSQL;
 
-namespace CatalogService.API
+
+var builder = WebApplication.CreateBuilder(args);
+
+// ----------------- DbContext -----------------
+builder.Services.AddDbContext<CatalogDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// ----------------- Repositories & UoW -----------------
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IInstrumentRepository, InstrumentRepository>();
+builder.Services.AddScoped<IPerformerRepository, PerformerRepository>();
+builder.Services.AddScoped<ICompositionRepository, CompositionRepository>();
+builder.Services.AddScoped<IConcertProgramRepository, ConcertProgramRepository>();
+builder.Services.AddScoped<IInstrumentImageRepository, InstrumentImageRepository>();
+
+// ----------------- Services -----------------
+builder.Services.AddScoped<IInstrumentService, InstrumentService>();
+builder.Services.AddScoped<IPerformerService, PerformerService>();
+builder.Services.AddScoped<ICompositionService, CompositionService>();
+builder.Services.AddScoped<IConcertProgramService, ConcertProgramService>();
+builder.Services.AddScoped<IInstrumentImageService, InstrumentImageService>();
+
+// ----------------- AutoMapper -----------------
+builder.Services.AddAutoMapper(cfg =>
 {
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            var builder = WebApplication.CreateBuilder(args);
+    cfg.AddProfile<CatalogMappingProfile>();
+});
 
-            // Add services to the container.
+// ----------------- FluentValidation -----------------
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssemblyContaining<CatalogMappingProfile>();
 
-            builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+// ----------------- Controllers -----------------
+builder.Services.AddControllers();
 
-            var app = builder.Build();
+// ----------------- Swagger -----------------
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+var app = builder.Build();
 
-            app.UseHttpsRedirection();
+// ----------------- Middleware -----------------
+app.UseMiddleware<GlobalExceptionHandlingMiddleware>();
 
-            app.UseAuthorization();
+app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
 
-
-            app.MapControllers();
-
-            app.Run();
-        }
-    }
+// ----------------- Swagger -----------------
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<CatalogDbContext>();
+    db.Database.Migrate(); 
+}
+
+// ----------------- Run -----------------
+app.Run();

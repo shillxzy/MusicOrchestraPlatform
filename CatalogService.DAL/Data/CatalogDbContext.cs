@@ -15,6 +15,12 @@ namespace CatalogService.DAL.Data
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(CatalogDbContext).Assembly);
+
+            modelBuilder.Entity<ConcertProgram>()
+        .HasOne(cp => cp.Composition)
+        .WithMany(c => c.ConcertPrograms)
+        .HasForeignKey(cp => cp.CompositionId)
+        .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

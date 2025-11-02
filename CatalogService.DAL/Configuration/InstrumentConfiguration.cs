@@ -27,7 +27,7 @@ namespace CatalogService.DAL.Configuration
             // Перевірка, щоб ціна була > 0
             builder.ToTable(t =>
             {
-                t.HasCheckConstraint("CK_Instrument_Price", "Price > 0");
+                t.HasCheckConstraint("CK_Instrument_Price", "\"Price\" > 0");
             });
 
 

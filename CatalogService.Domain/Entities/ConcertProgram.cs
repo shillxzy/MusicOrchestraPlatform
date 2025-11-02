@@ -13,7 +13,6 @@ namespace CatalogService.Domain.Entities
         public int ConcertId { get; set; }
         public int CompositionId { get; set; }
 
-        // M:N → ConcertProgram ↔ Composition (через ConcertId)
         public Composition? Composition { get; set; }
     }
 }

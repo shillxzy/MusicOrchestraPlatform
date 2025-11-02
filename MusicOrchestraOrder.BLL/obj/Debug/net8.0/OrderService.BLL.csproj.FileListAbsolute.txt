@@ -1,9 +1,3 @@
-C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\obj\Debug\net8.0\OrderService.BLL.csproj.AssemblyReference.cache
-C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\obj\Debug\net8.0\OrderService.BLL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\obj\Debug\net8.0\OrderService.BLL.AssemblyInfoInputs.cache
-C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\obj\Debug\net8.0\OrderService.BLL.AssemblyInfo.cs
-C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\obj\Debug\net8.0\OrderService.BLL.csproj.CoreCompileInputs.cache
-C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\obj\Debug\net8.0\OrderService.BLL.sourcelink.json
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\bin\Debug\net8.0\OrderService.BLL.deps.json
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\bin\Debug\net8.0\OrderService.BLL.dll
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\bin\Debug\net8.0\OrderService.BLL.pdb
@@ -11,6 +5,12 @@ C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\bin\D
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\bin\Debug\net8.0\OrderService.Domain.dll
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\bin\Debug\net8.0\OrderService.DAL.pdb
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\bin\Debug\net8.0\OrderService.Domain.pdb
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\obj\Debug\net8.0\OrderService.BLL.csproj.AssemblyReference.cache
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\obj\Debug\net8.0\OrderService.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\obj\Debug\net8.0\OrderService.BLL.AssemblyInfoInputs.cache
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\obj\Debug\net8.0\OrderService.BLL.AssemblyInfo.cs
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\obj\Debug\net8.0\OrderService.BLL.csproj.CoreCompileInputs.cache
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\obj\Debug\net8.0\OrderService.BLL.sourcelink.json
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\obj\Debug\net8.0\OrderSer.E2A75019.Up2Date
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\obj\Debug\net8.0\OrderService.BLL.dll
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.BLL\obj\Debug\net8.0\refint\OrderService.BLL.dll
