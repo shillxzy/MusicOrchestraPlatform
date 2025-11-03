@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{75049D69-CF75-4B10-AC12-62954C73810F}|RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\rewievsservice.infrastructure\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75049D69-CF75-4B10-AC12-62954C73810F}|RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj|solutionrelative:rewievsservice.infrastructure\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75049D69-CF75-4B10-AC12-62954C73810F}|RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\rewievsservice.infrastructure\\data\\seed\\mongoseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75049D69-CF75-4B10-AC12-62954C73810F}|RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj|solutionrelative:rewievsservice.infrastructure\\data\\seed\\mongoseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{75049D69-CF75-4B10-AC12-62954C73810F}|RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\rewievsservice.infrastructure\\mappings\\valueobjectmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75049D69-CF75-4B10-AC12-62954C73810F}|RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj|solutionrelative:rewievsservice.infrastructure\\mappings\\valueobjectmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{75049D69-CF75-4B10-AC12-62954C73810F}|RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\rewievsservice.infrastructure\\configuration\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75049D69-CF75-4B10-AC12-62954C73810F}|RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj|solutionrelative:rewievsservice.infrastructure\\configuration\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75049D69-CF75-4B10-AC12-62954C73810F}|RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\rewievsservice.infrastructure\\data\\seed\\mongoseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75049D69-CF75-4B10-AC12-62954C73810F}|RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj|solutionrelative:rewievsservice.infrastructure\\data\\seed\\mongoseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75049D69-CF75-4B10-AC12-62954C73810F}|RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\rewievsservice.infrastructure\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75049D69-CF75-4B10-AC12-62954C73810F}|RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj|solutionrelative:rewievsservice.infrastructure\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78E72F53-81E8-43D8-BF41-E60856715266}|RewievsService.Domain\\RewievsService.Domain.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\rewievsservice.domain\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -610,11 +610,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ValueObjectMappings.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Mappings\\ValueObjectMappings.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Mappings\\ValueObjectMappings.cs",
@@ -627,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MongoUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\UOW\\MongoUnitOfWork.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\UOW\\MongoUnitOfWork.cs",
@@ -640,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\UOW\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\UOW\\IUnitOfWork.cs",
@@ -653,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MongoIndexCreationService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Indexes\\MongoIndexCreationService.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Indexes\\MongoIndexCreationService.cs",
@@ -666,33 +666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IIndexCreationService.cs",
-              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Indexes\\IIndexCreationService.cs",
-              "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Indexes\\IIndexCreationService.cs",
-              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Indexes\\IIndexCreationService.cs",
-              "RelativeToolTip": "RewievsService.Infrastructure\\Indexes\\IIndexCreationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:50:10.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MongoDbSettings.cs",
-              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Configuration\\MongoDbSettings.cs",
-              "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Configuration\\MongoDbSettings.cs",
-              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Configuration\\MongoDbSettings.cs",
-              "RelativeToolTip": "RewievsService.Infrastructure\\Configuration\\MongoDbSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:49:44.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "MongoSeeder.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Data\\Seed\\MongoSeeder.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Data\\Seed\\MongoSeeder.cs",
@@ -705,15 +679,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "MongoDbContext.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Data\\MongoDbContext.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Data\\MongoDbContext.cs",
               "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Data\\MongoDbContext.cs",
               "RelativeToolTip": "RewievsService.Infrastructure\\Data\\MongoDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T10:42:01.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IIndexCreationService.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Indexes\\IIndexCreationService.cs",
+              "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Indexes\\IIndexCreationService.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Indexes\\IIndexCreationService.cs",
+              "RelativeToolTip": "RewievsService.Infrastructure\\Indexes\\IIndexCreationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:50:10.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MongoDbSettings.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Configuration\\MongoDbSettings.cs",
+              "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Configuration\\MongoDbSettings.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Configuration\\MongoDbSettings.cs",
+              "RelativeToolTip": "RewievsService.Infrastructure\\Configuration\\MongoDbSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:49:44.143Z",
               "EditorCaption": ""
             },
             {
