@@ -1,5 +1,6 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using ReviewsService.Domain.Exceptions;
 
 
 namespace RewievsService.Domain.Common
