@@ -45,5 +45,6 @@ namespace RewievsService.Infrastructure.Data
         }
 
         public IClientSessionHandle StartSession() => _client.StartSession();
+        public IMongoDatabase Database => _database;
     }
 }

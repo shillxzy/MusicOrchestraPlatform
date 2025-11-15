@@ -1,8 +1,8 @@
-﻿using ReviewsService.Infrastructure.Data.Context;
+﻿using RewievsService.Infrastructure.Data;
 using MongoDB.Driver;
 using RewievsService.Domain.Common;
 
-namespace GameNest.ReviewsService.Infrastructure.Repositories
+namespace ReviewsService.Infrastructure.Repositories
 {
     public class MongoRepository<T> : IMongoRepository<T> where T : BaseEntity
     {
@@ -14,7 +14,7 @@ namespace GameNest.ReviewsService.Infrastructure.Repositories
             _collection = typeof(T).Name switch
             {
                 "Comment" => (IMongoCollection<T>)context.Comments,
-                "Media" => (IMongoCollection<T>)context.Media,
+                "Media" => (IMongoCollection<T>)context.Discussions,
                 "Review" => (IMongoCollection<T>)context.Reviews,
                 _ => context.Database.GetCollection<T>(typeof(T).Name + "s")
             };

@@ -9,7 +9,7 @@ namespace RewievsService.Application.Commands.Comments
 {
     public class UpdateCommentCommand : ICommand
     {
-        public string CommentId { get; }
+        public string CommentId { get; set; }
         public CommentText? NewText { get; }
         public string UpdatedBy { get; }
 

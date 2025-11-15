@@ -8,7 +8,7 @@ namespace RewievsService.Application.Commands.Discussions
 {
     public class UpdateDiscussionCommand : ICommand
     {
-        public string DiscussionId { get; }
+        public string DiscussionId { get; set; }
         public string? NewTopic { get; }
         public string UpdatedBy { get; }
 

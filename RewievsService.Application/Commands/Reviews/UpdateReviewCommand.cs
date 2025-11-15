@@ -9,7 +9,7 @@ namespace RewievsService.Application.Commands.Reviews
 {
     public class UpdateReviewCommand : ICommand
     {
-        public string ReviewId { get; }
+        public string ReviewId { get; set; }
         public string? NewTitle { get; }
         public string? NewContent { get; }
         public RatingValue? NewRating { get; }

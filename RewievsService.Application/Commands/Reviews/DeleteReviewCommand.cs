@@ -14,7 +14,7 @@ namespace RewievsService.Application.Commands.Reviews
         public DeleteReviewCommand(string reviewId, string requestedBy)
         {
             ReviewId = reviewId;
-            RequestedBy = requestedBy;
+            RequestedBy = requestedBy ?? throw new ArgumentNullException(nameof(requestedBy));
         }
     }
 }
