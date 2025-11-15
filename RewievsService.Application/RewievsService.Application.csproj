@@ -7,15 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="15.1.0" />
     <PackageReference Include="MediatR" Version="13.1.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\RewievsService.Domain\RewievsService.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\RewievsService.Infrastructure\RewievsService.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

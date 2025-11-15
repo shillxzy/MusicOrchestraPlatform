@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RewievsService.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a40599e8a01cf643cadc1962bc73ad2fa9b0599d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9ff838d1efa61ab0d01727237dacee9b9c071d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("RewievsService.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RewievsService.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
