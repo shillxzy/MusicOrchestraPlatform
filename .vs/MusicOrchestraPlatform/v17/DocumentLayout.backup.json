@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{967A5DF0-30AD-4B6C-9ED2-15A9C33E1720}|RewievsService.API\\RewievsService.API.csproj|solutionrelative:rewievsservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{967A5DF0-30AD-4B6C-9ED2-15A9C33E1720}|RewievsService.API\\RewievsService.API.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\rewievsservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{967A5DF0-30AD-4B6C-9ED2-15A9C33E1720}|RewievsService.API\\RewievsService.API.csproj|solutionrelative:rewievsservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{75049D69-CF75-4B10-AC12-62954C73810F}|RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj|c:\\users\\dmska\\source\\repos\\musicorchestraplatform\\rewievsservice.infrastructure\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75049D69-CF75-4B10-AC12-62954C73810F}|RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj|solutionrelative:rewievsservice.infrastructure\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -798,11 +802,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.API\\appsettings.json",
+              "RelativeDocumentMoniker": "RewievsService.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.API\\appsettings.json",
+              "RelativeToolTip": "RewievsService.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-15T14:31:07.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DiscussionRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Repositories\\DiscussionRepository.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Repositories\\DiscussionRepository.cs",
@@ -810,12 +827,11 @@
               "RelativeToolTip": "RewievsService.Infrastructure\\Repositories\\DiscussionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:55:45.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:55:45.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CommentRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Repositories\\CommentRepository.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Repositories\\CommentRepository.cs",
@@ -823,12 +839,11 @@
               "RelativeToolTip": "RewievsService.Infrastructure\\Repositories\\CommentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:55:02.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:55:02.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ReviewRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Repositories\\ReviewRepository.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Repositories\\ReviewRepository.cs",
@@ -836,8 +851,7 @@
               "RelativeToolTip": "RewievsService.Infrastructure\\Repositories\\ReviewRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:54:39.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:54:39.258Z"
             },
             {
               "$type": "Document",
@@ -847,40 +861,39 @@
               "RelativeDocumentMoniker": "RewievsService.API\\Program.cs",
               "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.API\\Program.cs",
               "RelativeToolTip": "RewievsService.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-15T13:28:03.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MongoRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Repositories\\MongoRepository.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Repositories\\MongoRepository.cs",
               "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Repositories\\MongoRepository.cs",
               "RelativeToolTip": "RewievsService.Infrastructure\\Repositories\\MongoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBIAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:31:03.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T10:31:03.826Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MongoDbContext.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Data\\MongoDbContext.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Data\\MongoDbContext.cs",
               "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Data\\MongoDbContext.cs",
               "RelativeToolTip": "RewievsService.Infrastructure\\Data\\MongoDbContext.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAkAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwCcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T10:42:01.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ICommentService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Interfaces\\Services\\ICommentService.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Interfaces\\Services\\ICommentService.cs",
@@ -888,12 +901,11 @@
               "RelativeToolTip": "RewievsService.Domain\\Interfaces\\Services\\ICommentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:13:12.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T10:13:12.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ICommentRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Interfaces\\Repositories\\ICommentRepository.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Interfaces\\Repositories\\ICommentRepository.cs",
@@ -901,12 +913,11 @@
               "RelativeToolTip": "RewievsService.Domain\\Interfaces\\Repositories\\ICommentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:08:53.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T10:08:53.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IDiscussionRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Interfaces\\Repositories\\IDiscussionRepository.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Interfaces\\Repositories\\IDiscussionRepository.cs",
@@ -914,12 +925,11 @@
               "RelativeToolTip": "RewievsService.Domain\\Interfaces\\Repositories\\IDiscussionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:09:05.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T10:09:05.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IReviewRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Interfaces\\Repositories\\IReviewRepository.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Interfaces\\Repositories\\IReviewRepository.cs",
@@ -927,12 +937,11 @@
               "RelativeToolTip": "RewievsService.Domain\\Interfaces\\Repositories\\IReviewRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:08:35.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T10:08:35.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "DiscussionsController.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.API\\Controllers\\DiscussionsController.cs",
               "RelativeDocumentMoniker": "RewievsService.API\\Controllers\\DiscussionsController.cs",
@@ -940,12 +949,11 @@
               "RelativeToolTip": "RewievsService.API\\Controllers\\DiscussionsController.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAUwDIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:21:01.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:21:01.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "DeleteDiscussionCommand.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Commands\\Discussions\\DeleteDiscussionCommand.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Commands\\Discussions\\DeleteDiscussionCommand.cs",
@@ -953,12 +961,11 @@
               "RelativeToolTip": "RewievsService.Application\\Commands\\Discussions\\DeleteDiscussionCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T12:57:49.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T12:57:49.681Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UpdateDiscussionCommand.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Commands\\Discussions\\UpdateDiscussionCommand.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Commands\\Discussions\\UpdateDiscussionCommand.cs",
@@ -966,12 +973,11 @@
               "RelativeToolTip": "RewievsService.Application\\Commands\\Discussions\\UpdateDiscussionCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T12:57:38.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T12:57:38.239Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CommentsController.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.API\\Controllers\\CommentsController.cs",
               "RelativeDocumentMoniker": "RewievsService.API\\Controllers\\CommentsController.cs",
@@ -979,12 +985,11 @@
               "RelativeToolTip": "RewievsService.API\\Controllers\\CommentsController.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAowDcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:20:49.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:20:49.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "DeleteCommentCommand.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Commands\\Comments\\DeleteCommentCommand.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Commands\\Comments\\DeleteCommentCommand.cs",
@@ -992,12 +997,11 @@
               "RelativeToolTip": "RewievsService.Application\\Commands\\Comments\\DeleteCommentCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T12:57:09.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T12:57:09.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ReviewsController.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.API\\Controllers\\ReviewsController.cs",
               "RelativeDocumentMoniker": "RewievsService.API\\Controllers\\ReviewsController.cs",
@@ -1005,12 +1009,11 @@
               "RelativeToolTip": "RewievsService.API\\Controllers\\ReviewsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:20:41.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:20:41.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "UpdateCommentCommand.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Commands\\Comments\\UpdateCommentCommand.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Commands\\Comments\\UpdateCommentCommand.cs",
@@ -1018,12 +1021,11 @@
               "RelativeToolTip": "RewievsService.Application\\Commands\\Comments\\UpdateCommentCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T12:56:52.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T12:56:52.678Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "CreateCommentCommand.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Commands\\Comments\\CreateCommentCommand.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Commands\\Comments\\CreateCommentCommand.cs",
@@ -1031,12 +1033,11 @@
               "RelativeToolTip": "RewievsService.Application\\Commands\\Comments\\CreateCommentCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T12:54:00.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T12:54:00.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "DeleteReviewCommand.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Commands\\Reviews\\DeleteReviewCommand.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Commands\\Reviews\\DeleteReviewCommand.cs",
@@ -1044,12 +1045,11 @@
               "RelativeToolTip": "RewievsService.Application\\Commands\\Reviews\\DeleteReviewCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T12:52:39.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T12:52:39.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "UpdateReviewCommand.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Commands\\Reviews\\UpdateReviewCommand.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Commands\\Reviews\\UpdateReviewCommand.cs",
@@ -1057,12 +1057,11 @@
               "RelativeToolTip": "RewievsService.Application\\Commands\\Reviews\\UpdateReviewCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T12:52:26.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T12:52:26.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ICommand.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Commands\\ICommand.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Commands\\ICommand.cs",
@@ -1070,12 +1069,11 @@
               "RelativeToolTip": "RewievsService.Application\\Commands\\ICommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T12:51:52.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T12:51:52.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CreateReviewCommand.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Commands\\Reviews\\CreateReviewCommand.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Commands\\Reviews\\CreateReviewCommand.cs",
@@ -1083,12 +1081,11 @@
               "RelativeToolTip": "RewievsService.Application\\Commands\\Reviews\\CreateReviewCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T12:50:06.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T12:50:06.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "BaseApiController.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.API\\Controllers\\BaseApiController.cs",
               "RelativeDocumentMoniker": "RewievsService.API\\Controllers\\BaseApiController.cs",
@@ -1096,12 +1093,11 @@
               "RelativeToolTip": "RewievsService.API\\Controllers\\BaseApiController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:20:01.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:20:01.689Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "GlobalExceptionMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.API\\Middleware\\GlobalExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "RewievsService.API\\Middleware\\GlobalExceptionMiddleware.cs",
@@ -1109,12 +1105,11 @@
               "RelativeToolTip": "RewievsService.API\\Middleware\\GlobalExceptionMiddleware.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAgwC4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:17:05.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:17:05.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "DeleteDiscussionCommandValidator.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Validators\\DiscussionValidators\\DeleteDiscussionCommandValidator.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Validators\\DiscussionValidators\\DeleteDiscussionCommandValidator.cs",
@@ -1122,12 +1117,11 @@
               "RelativeToolTip": "RewievsService.Application\\Validators\\DiscussionValidators\\DeleteDiscussionCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:15:37.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:15:37.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "UpdateDiscussionCommandValidator.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Validators\\DiscussionValidators\\UpdateDiscussionCommandValidator.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Validators\\DiscussionValidators\\UpdateDiscussionCommandValidator.cs",
@@ -1135,12 +1129,11 @@
               "RelativeToolTip": "RewievsService.Application\\Validators\\DiscussionValidators\\UpdateDiscussionCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:14:20.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:14:20.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "CreateDiscussionCommandValidator.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Validators\\DiscussionValidators\\CreateDiscussionCommandValidator.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Validators\\DiscussionValidators\\CreateDiscussionCommandValidator.cs",
@@ -1148,12 +1141,11 @@
               "RelativeToolTip": "RewievsService.Application\\Validators\\DiscussionValidators\\CreateDiscussionCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:14:07.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:14:07.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "DeleteCommentCommandValidator.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Validators\\CommentValidators\\DeleteCommentCommandValidator.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Validators\\CommentValidators\\DeleteCommentCommandValidator.cs",
@@ -1161,12 +1153,11 @@
               "RelativeToolTip": "RewievsService.Application\\Validators\\CommentValidators\\DeleteCommentCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:13:32.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:13:32.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "UpdateCommentCommandValidator.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Validators\\CommentValidators\\UpdateCommentCommandValidator.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Validators\\CommentValidators\\UpdateCommentCommandValidator.cs",
@@ -1174,12 +1165,11 @@
               "RelativeToolTip": "RewievsService.Application\\Validators\\CommentValidators\\UpdateCommentCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:12:20.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:12:20.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "CreateCommentCommandValidator.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Validators\\CommentValidators\\CreateCommentCommandValidator.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Validators\\CommentValidators\\CreateCommentCommandValidator.cs",
@@ -1187,12 +1177,11 @@
               "RelativeToolTip": "RewievsService.Application\\Validators\\CommentValidators\\CreateCommentCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:12:04.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:12:04.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "DeleteReviewCommandValidator.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Validators\\ReviewValidators\\DeleteReviewCommandValidator.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Validators\\ReviewValidators\\DeleteReviewCommandValidator.cs",
@@ -1200,12 +1189,11 @@
               "RelativeToolTip": "RewievsService.Application\\Validators\\ReviewValidators\\DeleteReviewCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:11:36.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:11:36.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "UpdateReviewCommandValidator.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Validators\\ReviewValidators\\UpdateReviewCommandValidator.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Validators\\ReviewValidators\\UpdateReviewCommandValidator.cs",
@@ -1213,12 +1201,11 @@
               "RelativeToolTip": "RewievsService.Application\\Validators\\ReviewValidators\\UpdateReviewCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:09:57.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:09:57.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "CreateReviewCommandValidator.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Validators\\ReviewValidators\\CreateReviewCommandValidator.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Validators\\ReviewValidators\\CreateReviewCommandValidator.cs",
@@ -1226,12 +1213,11 @@
               "RelativeToolTip": "RewievsService.Application\\Validators\\ReviewValidators\\CreateReviewCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:09:35.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:09:35.287Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "GetDiscussionsByAuthorIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Queries\\Discussions\\GetDiscussionsByAuthorIdQuery.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Queries\\Discussions\\GetDiscussionsByAuthorIdQuery.cs",
@@ -1239,12 +1225,11 @@
               "RelativeToolTip": "RewievsService.Application\\Queries\\Discussions\\GetDiscussionsByAuthorIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:06:04.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:06:04.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "GetDiscussionsByRelatedEntityIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Queries\\Discussions\\GetDiscussionsByRelatedEntityIdQuery.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Queries\\Discussions\\GetDiscussionsByRelatedEntityIdQuery.cs",
@@ -1252,12 +1237,11 @@
               "RelativeToolTip": "RewievsService.Application\\Queries\\Discussions\\GetDiscussionsByRelatedEntityIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:05:52.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:05:52.759Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "GetDiscussionByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Queries\\Discussions\\GetDiscussionByIdQuery.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Queries\\Discussions\\GetDiscussionByIdQuery.cs",
@@ -1265,12 +1249,11 @@
               "RelativeToolTip": "RewievsService.Application\\Queries\\Discussions\\GetDiscussionByIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:05:41.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:05:41.274Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "GetCommentsByAuthorIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Queries\\Comments\\GetCommentsByAuthorIdQuery.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Queries\\Comments\\GetCommentsByAuthorIdQuery.cs",
@@ -1278,12 +1261,11 @@
               "RelativeToolTip": "RewievsService.Application\\Queries\\Comments\\GetCommentsByAuthorIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:05:19.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:05:19.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "ValidationBehavior.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Behaviors\\ValidationBehavior.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Behaviors\\ValidationBehavior.cs",
@@ -1291,12 +1273,11 @@
               "RelativeToolTip": "RewievsService.Application\\Behaviors\\ValidationBehavior.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T13:03:50.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T13:03:50.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "GetCommentsByReviewIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Queries\\Comments\\GetCommentsByReviewIdQuery.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Queries\\Comments\\GetCommentsByReviewIdQuery.cs",
@@ -1304,12 +1285,11 @@
               "RelativeToolTip": "RewievsService.Application\\Queries\\Comments\\GetCommentsByReviewIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:05:07.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:05:07.801Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "GetCommentByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Queries\\Comments\\GetCommentByIdQuery.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Queries\\Comments\\GetCommentByIdQuery.cs",
@@ -1317,12 +1297,11 @@
               "RelativeToolTip": "RewievsService.Application\\Queries\\Comments\\GetCommentByIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:04:52.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:04:52.681Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "GetReviewWithCommentsQuery.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Queries\\Reviews\\GetReviewWithCommentsQuery.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Queries\\Reviews\\GetReviewWithCommentsQuery.cs",
@@ -1330,12 +1309,11 @@
               "RelativeToolTip": "RewievsService.Application\\Queries\\Reviews\\GetReviewWithCommentsQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:04:28.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:04:28.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "GetReviewsByAuthorIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Queries\\Reviews\\GetReviewsByAuthorIdQuery.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Queries\\Reviews\\GetReviewsByAuthorIdQuery.cs",
@@ -1343,12 +1321,11 @@
               "RelativeToolTip": "RewievsService.Application\\Queries\\Reviews\\GetReviewsByAuthorIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:04:15.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:04:15.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "GetReviewsByTargetIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Queries\\Reviews\\GetReviewsByTargetIdQuery.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Queries\\Reviews\\GetReviewsByTargetIdQuery.cs",
@@ -1356,12 +1333,11 @@
               "RelativeToolTip": "RewievsService.Application\\Queries\\Reviews\\GetReviewsByTargetIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:04:03.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:04:03.116Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "GetReviewByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Queries\\Reviews\\GetReviewByIdQuery.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Queries\\Reviews\\GetReviewByIdQuery.cs",
@@ -1369,12 +1345,11 @@
               "RelativeToolTip": "RewievsService.Application\\Queries\\Reviews\\GetReviewByIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:03:49.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:03:49.465Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "IQuery.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Queries\\IQuery.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Queries\\IQuery.cs",
@@ -1382,12 +1357,11 @@
               "RelativeToolTip": "RewievsService.Application\\Queries\\IQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:03:14.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:03:14.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "CreateDiscussionCommand.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Commands\\Discussions\\CreateDiscussionCommand.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Commands\\Discussions\\CreateDiscussionCommand.cs",
@@ -1395,12 +1369,11 @@
               "RelativeToolTip": "RewievsService.Application\\Commands\\Discussions\\CreateDiscussionCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T12:57:25.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T12:57:25.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "DiscussionService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Services\\DiscussionService.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Services\\DiscussionService.cs",
@@ -1408,12 +1381,11 @@
               "RelativeToolTip": "RewievsService.Application\\Services\\DiscussionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T12:46:08.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T12:46:08.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "CommentService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Services\\CommentService.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Services\\CommentService.cs",
@@ -1421,12 +1393,11 @@
               "RelativeToolTip": "RewievsService.Application\\Services\\CommentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T12:45:46.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T12:45:46.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "ReviewService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Services\\ReviewService.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Services\\ReviewService.cs",
@@ -1434,12 +1405,11 @@
               "RelativeToolTip": "RewievsService.Application\\Services\\ReviewService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T12:40:33.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T12:40:33.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "CompositionCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\DTOs\\Composition\\CompositionCreateDto.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\DTOs\\Composition\\CompositionCreateDto.cs",
@@ -1447,12 +1417,11 @@
               "RelativeToolTip": "CatalogService.BLL\\DTOs\\Composition\\CompositionCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T12:34:58.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T12:34:58.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "GlobalExceptionHandlingMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.API\\Middlewares\\GlobalExceptionHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "CatalogService.API\\Middlewares\\GlobalExceptionHandlingMiddleware.cs",
@@ -1464,7 +1433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "IReviewService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Interfaces\\Services\\IReviewService.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Interfaces\\Services\\IReviewService.cs",
@@ -1472,12 +1441,11 @@
               "RelativeToolTip": "RewievsService.Domain\\Interfaces\\Services\\IReviewService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:13:01.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T10:13:01.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "IDiscussionService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Interfaces\\Services\\IDiscussionService.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Interfaces\\Services\\IDiscussionService.cs",
@@ -1485,12 +1453,11 @@
               "RelativeToolTip": "RewievsService.Domain\\Interfaces\\Services\\IDiscussionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:13:26.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T10:13:26.381Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "FluentValidationExtensions.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\Extensions\\FluentValidationExtensions.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\Extensions\\FluentValidationExtensions.cs",
@@ -1502,7 +1469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "CatalogMappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\MappingProfiles\\CatalogMappingProfile.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\MappingProfiles\\CatalogMappingProfile.cs",
@@ -1514,7 +1481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "CompositionValidator.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\Validators\\CompositionValidator.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\Validators\\CompositionValidator.cs",
@@ -1526,7 +1493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.API\\Program.cs",
               "RelativeDocumentMoniker": "CatalogService.API\\Program.cs",
@@ -1538,7 +1505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "ConcertProgramValidator.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\Validators\\ConcertProgramValidator.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\Validators\\ConcertProgramValidator.cs",
@@ -1550,7 +1517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Repositories\\ProductRepository.cs",
@@ -1562,7 +1529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "NpgsqlConnectFactory.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Infrastructure\\NpgsqlConnectFactory.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Infrastructure\\NpgsqlConnectFactory.cs",
@@ -1574,7 +1541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "MongoUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\UOW\\MongoUnitOfWork.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\UOW\\MongoUnitOfWork.cs",
@@ -1586,7 +1553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "ValueObjectMappings.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Mappings\\ValueObjectMappings.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Mappings\\ValueObjectMappings.cs",
@@ -1598,7 +1565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "ExceptionHandlingBehavior.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Behaviors\\ExceptionHandlingBehavior.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Behaviors\\ExceptionHandlingBehavior.cs",
@@ -1610,7 +1577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "LoggingBehavior.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Behaviors\\LoggingBehavior.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Behaviors\\LoggingBehavior.cs",
@@ -1622,7 +1589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Repositories\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Repositories\\CustomerRepository.cs",
@@ -1634,7 +1601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "PerformanceBehavior.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\Behaviors\\PerformanceBehavior.cs",
               "RelativeDocumentMoniker": "RewievsService.Application\\Behaviors\\PerformanceBehavior.cs",
@@ -1646,7 +1613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\UOW\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\UOW\\IUnitOfWork.cs",
@@ -1658,7 +1625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "MongoIndexCreationService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Indexes\\MongoIndexCreationService.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Indexes\\MongoIndexCreationService.cs",
@@ -1670,7 +1637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "MongoSeeder.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Data\\Seed\\MongoSeeder.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Data\\Seed\\MongoSeeder.cs",
@@ -1682,7 +1649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "IIndexCreationService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Indexes\\IIndexCreationService.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Indexes\\IIndexCreationService.cs",
@@ -1694,7 +1661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "MongoDbSettings.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Configuration\\MongoDbSettings.cs",
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Configuration\\MongoDbSettings.cs",
@@ -1706,7 +1673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Entities\\Comment.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Entities\\Comment.cs",
@@ -1718,7 +1685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "Discussion.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Entities\\Discussion.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Entities\\Discussion.cs",
@@ -1730,7 +1697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "Review.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Entities\\Review.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Entities\\Review.cs",
@@ -1742,7 +1709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "DiscussionParameters.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Entities\\Parameters\\DiscussionParameters.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Entities\\Parameters\\DiscussionParameters.cs",
@@ -1754,7 +1721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 76,
               "Title": "CommentParameters.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Entities\\Parameters\\CommentParameters.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Entities\\Parameters\\CommentParameters.cs",
@@ -1766,7 +1733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 77,
               "Title": "ReviewParameters.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Entities\\Parameters\\ReviewParameters.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Entities\\Parameters\\ReviewParameters.cs",
@@ -1778,7 +1745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 78,
               "Title": "QueryStringParameters.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Entities\\Parameters\\QueryStringParameters.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Entities\\Parameters\\QueryStringParameters.cs",
@@ -1790,7 +1757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 79,
               "Title": "CommentText.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\ValueObjects\\CommentText.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\ValueObjects\\CommentText.cs",
@@ -1802,7 +1769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 80,
               "Title": "RatingValue.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\ValueObjects\\RatingValue.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\ValueObjects\\RatingValue.cs",
@@ -1814,7 +1781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 87,
               "Title": "ConflictException.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Exceptions\\ConflictException.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Exceptions\\ConflictException.cs",
@@ -1826,7 +1793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 86,
               "Title": "CustomValidationException.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Exceptions\\CustomValidationException.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Exceptions\\CustomValidationException.cs",
@@ -1838,7 +1805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 83,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Common\\BaseEntity.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Common\\BaseEntity.cs",
@@ -1850,7 +1817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 85,
               "Title": "MongoSortHelper.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Common\\Helpers\\MongoSortHelper.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Common\\Helpers\\MongoSortHelper.cs",
@@ -1862,7 +1829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 84,
               "Title": "PagedList.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Common\\Helpers\\PagedList.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Common\\Helpers\\PagedList.cs",
@@ -1874,7 +1841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 82,
               "Title": "IMongoRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Common\\IMongoRepository.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Common\\IMongoRepository.cs",
@@ -1886,7 +1853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 81,
               "Title": "ValueObject.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Common\\ValueObject.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Common\\ValueObject.cs",
@@ -1898,7 +1865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 88,
               "Title": "DomainException.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Exceptions\\DomainException.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Exceptions\\DomainException.cs",
@@ -1910,7 +1877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 89,
               "Title": "NotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Exceptions\\NotFoundException.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Exceptions\\NotFoundException.cs",
@@ -1922,7 +1889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 90,
               "Title": "MongoDbWriteException.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Exceptions\\MongoDbWriteException.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Exceptions\\MongoDbWriteException.cs",
@@ -1934,7 +1901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 92,
               "Title": "RewievsService.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\RewievsService.Domain.csproj",
               "RelativeDocumentMoniker": "RewievsService.Domain\\RewievsService.Domain.csproj",
@@ -1946,7 +1913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 91,
               "Title": "MongoDbConnectionException.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\Exceptions\\MongoDbConnectionException.cs",
               "RelativeDocumentMoniker": "RewievsService.Domain\\Exceptions\\MongoDbConnectionException.cs",
@@ -1958,7 +1925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 96,
               "Title": "ConcertProgram.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\ConcertProgram.cs",
               "RelativeDocumentMoniker": "CatalogService.Domain\\Entities\\ConcertProgram.cs",
@@ -1970,7 +1937,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 93,
               "Title": "CatalogDbContext.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Data\\CatalogDbContext.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Data\\CatalogDbContext.cs",
@@ -1982,7 +1949,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 99,
               "Title": "CatalogService.DAL.csproj",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\CatalogService.DAL.csproj",
               "RelativeDocumentMoniker": "CatalogService.DAL\\CatalogService.DAL.csproj",
@@ -1994,7 +1961,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 98,
               "Title": "Instrument.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\Instrument.cs",
               "RelativeDocumentMoniker": "CatalogService.Domain\\Entities\\Instrument.cs",
@@ -2006,7 +1973,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 95,
               "Title": "Composition.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\Composition.cs",
               "RelativeDocumentMoniker": "CatalogService.Domain\\Entities\\Composition.cs",
@@ -2018,7 +1985,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 94,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.API\\appsettings.json",
               "RelativeDocumentMoniker": "CatalogService.API\\appsettings.json",
@@ -2030,7 +1997,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 100,
               "Title": "CatalogDbContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Data\\CatalogDbContextFactory.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Data\\CatalogDbContextFactory.cs",
@@ -2042,7 +2009,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 97,
               "Title": "InstrumentConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Configuration\\InstrumentConfiguration.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Configuration\\InstrumentConfiguration.cs",
@@ -2054,7 +2021,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 101,
               "Title": "Seed.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Data\\Seed.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Data\\Seed.cs",
@@ -2066,7 +2033,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 106,
               "Title": "InstrumentImagesController.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.API\\Controllers\\InstrumentImagesController.cs",
               "RelativeDocumentMoniker": "CatalogService.API\\Controllers\\InstrumentImagesController.cs",
@@ -2078,7 +2045,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 103,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\appsettings.json",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.API\\appsettings.json",
@@ -2090,7 +2057,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 102,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\Program.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.API\\Program.cs",
@@ -2102,7 +2069,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 107,
               "Title": "ConcertProgramsController.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.API\\Controllers\\ConcertProgramsController.cs",
               "RelativeDocumentMoniker": "CatalogService.API\\Controllers\\ConcertProgramsController.cs",
@@ -2114,7 +2081,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 104,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Repositories\\GenericRepository.cs",
@@ -2126,7 +2093,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 108,
               "Title": "CompositionsController.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.API\\Controllers\\CompositionsController.cs",
               "RelativeDocumentMoniker": "CatalogService.API\\Controllers\\CompositionsController.cs",
@@ -2138,7 +2105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 105,
               "Title": "InstrumentValidator.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\Validators\\InstrumentValidator.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\Validators\\InstrumentValidator.cs",
@@ -2150,7 +2117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 109,
               "Title": "PerformersController.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.API\\Controllers\\PerformersController.cs",
               "RelativeDocumentMoniker": "CatalogService.API\\Controllers\\PerformersController.cs",
@@ -2162,7 +2129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 110,
               "Title": "InstrumentsController.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.API\\Controllers\\InstrumentsController.cs",
               "RelativeDocumentMoniker": "CatalogService.API\\Controllers\\InstrumentsController.cs",
@@ -2174,7 +2141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 111,
               "Title": "InstrumentImageValidator.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\Validators\\InstrumentImageValidator.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\Validators\\InstrumentImageValidator.cs",
@@ -2186,7 +2153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 112,
               "Title": "PerformerValidator.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\Validators\\PerformerValidator.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\Validators\\PerformerValidator.cs",
@@ -2198,7 +2165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 113,
               "Title": "InstrumentImageService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\Services\\InstrumentImageService.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\Services\\InstrumentImageService.cs",
@@ -2210,7 +2177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 114,
               "Title": "ConcertProgramService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\Services\\ConcertProgramService.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\Services\\ConcertProgramService.cs",
@@ -2222,7 +2189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 115,
               "Title": "CompositionService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\Services\\CompositionService.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\Services\\CompositionService.cs",
@@ -2234,7 +2201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 116,
               "Title": "PerformerService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\Services\\PerformerService.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\Services\\PerformerService.cs",
@@ -2246,7 +2213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 121,
               "Title": "PerformerRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Repositories\\PerformerRepository.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Repositories\\PerformerRepository.cs",
@@ -2258,7 +2225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 118,
               "Title": "PerformerCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\DTOs\\Performer\\PerformerCreateDto.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\DTOs\\Performer\\PerformerCreateDto.cs",
@@ -2270,7 +2237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 120,
               "Title": "PerformerDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\DTOs\\Performer\\PerformerDto.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\DTOs\\Performer\\PerformerDto.cs",
@@ -2282,7 +2249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 119,
               "Title": "PerformerUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\DTOs\\Performer\\PerformerUpdateDto.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\DTOs\\Performer\\PerformerUpdateDto.cs",
@@ -2294,7 +2261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 117,
               "Title": "InstrumentService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\Services\\InstrumentService.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\Services\\InstrumentService.cs",
@@ -2306,7 +2273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 122,
               "Title": "InstrumentRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Repositories\\InstrumentRepository.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Repositories\\InstrumentRepository.cs",
@@ -2318,7 +2285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 123,
               "Title": "InstrumentImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Repositories\\InstrumentImageRepository.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Repositories\\InstrumentImageRepository.cs",
@@ -2330,7 +2297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 124,
               "Title": "ConcertProgramRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Repositories\\ConcertProgramRepository.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Repositories\\ConcertProgramRepository.cs",
@@ -2342,7 +2309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 125,
               "Title": "CompositionRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Repositories\\CompositionRepository.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Repositories\\CompositionRepository.cs",
@@ -2354,7 +2321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 126,
               "Title": "IPerformerRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Repositories\\Interfaces\\IPerformerRepository.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Repositories\\Interfaces\\IPerformerRepository.cs",
@@ -2366,7 +2333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 127,
               "Title": "IInstrumentRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Repositories\\Interfaces\\IInstrumentRepository.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Repositories\\Interfaces\\IInstrumentRepository.cs",
@@ -2378,7 +2345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 128,
               "Title": "IInstrumentImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Repositories\\Interfaces\\IInstrumentImageRepository.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Repositories\\Interfaces\\IInstrumentImageRepository.cs",
@@ -2390,7 +2357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 130,
               "Title": "IConcertProgramRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Repositories\\Interfaces\\IConcertProgramRepository.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Repositories\\Interfaces\\IConcertProgramRepository.cs",
@@ -2402,7 +2369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 129,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Repositories\\Interfaces\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Repositories\\Interfaces\\IGenericRepository.cs",
@@ -2414,7 +2381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 131,
               "Title": "ICompositionRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Repositories\\Interfaces\\ICompositionRepository.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Repositories\\Interfaces\\ICompositionRepository.cs",
@@ -2426,7 +2393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 133,
               "Title": "IInstrumentImageService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\Services\\Interfaces\\IInstrumentImageService.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\Services\\Interfaces\\IInstrumentImageService.cs",
@@ -2438,7 +2405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 134,
               "Title": "IConcertProgramService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\Services\\Interfaces\\IConcertProgramService.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\Services\\Interfaces\\IConcertProgramService.cs",
@@ -2450,7 +2417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 135,
               "Title": "ICompositionService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\Services\\Interfaces\\ICompositionService.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\Services\\Interfaces\\ICompositionService.cs",
@@ -2462,7 +2429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 136,
               "Title": "IPerformerService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\Services\\Interfaces\\IPerformerService.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\Services\\Interfaces\\IPerformerService.cs",
@@ -2474,7 +2441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 132,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\UOW\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\UOW\\IUnitOfWork.cs",
@@ -2486,7 +2453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 138,
               "Title": "InstrumentImageUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\DTOs\\InstrumentImage\\InstrumentImageUpdateDto.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\DTOs\\InstrumentImage\\InstrumentImageUpdateDto.cs",
@@ -2498,7 +2465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 138,
+              "DocumentIndex": 139,
               "Title": "InstrumentImageCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\DTOs\\InstrumentImage\\InstrumentImageCreateDto.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\DTOs\\InstrumentImage\\InstrumentImageCreateDto.cs",
@@ -2510,7 +2477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 139,
+              "DocumentIndex": 140,
               "Title": "InstrumentImageDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\DTOs\\InstrumentImage\\InstrumentImageDto.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\DTOs\\InstrumentImage\\InstrumentImageDto.cs",
@@ -2522,7 +2489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 140,
+              "DocumentIndex": 141,
               "Title": "ConcertProgramUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\DTOs\\ConcertProgram\\ConcertProgramUpdateDto.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\DTOs\\ConcertProgram\\ConcertProgramUpdateDto.cs",
@@ -2534,7 +2501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 137,
               "Title": "IInstrumentService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\Services\\Interfaces\\IInstrumentService.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\Services\\Interfaces\\IInstrumentService.cs",
@@ -2546,7 +2513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 141,
+              "DocumentIndex": 142,
               "Title": "ConcertProgramCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\DTOs\\ConcertProgram\\ConcertProgramCreateDto.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\DTOs\\ConcertProgram\\ConcertProgramCreateDto.cs",
@@ -2558,7 +2525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 142,
+              "DocumentIndex": 143,
               "Title": "ConcertProgramDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\DTOs\\ConcertProgram\\ConcertProgramDto.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\DTOs\\ConcertProgram\\ConcertProgramDto.cs",
@@ -2570,7 +2537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 143,
+              "DocumentIndex": 144,
               "Title": "CompositionUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\DTOs\\Composition\\CompositionUpdateDto.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\DTOs\\Composition\\CompositionUpdateDto.cs",
@@ -2582,7 +2549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 144,
+              "DocumentIndex": 145,
               "Title": "CompositionDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\DTOs\\Composition\\CompositionDto.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\DTOs\\Composition\\CompositionDto.cs",
@@ -2594,7 +2561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 145,
+              "DocumentIndex": 146,
               "Title": "InstrumentUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\DTOs\\Instrument\\InstrumentUpdateDto.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\DTOs\\Instrument\\InstrumentUpdateDto.cs",
@@ -2606,7 +2573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 146,
+              "DocumentIndex": 147,
               "Title": "InstrumentCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\DTOs\\Instrument\\InstrumentCreateDto.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\DTOs\\Instrument\\InstrumentCreateDto.cs",
@@ -2618,7 +2585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 147,
+              "DocumentIndex": 148,
               "Title": "InstrumentDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\DTOs\\Instrument\\InstrumentDto.cs",
               "RelativeDocumentMoniker": "CatalogService.BLL\\DTOs\\Instrument\\InstrumentDto.cs",
@@ -2630,7 +2597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 149,
+              "DocumentIndex": 150,
               "Title": "SortParameters.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\Parameters\\SortParameters.cs",
               "RelativeDocumentMoniker": "CatalogService.Domain\\Entities\\Parameters\\SortParameters.cs",
@@ -2642,7 +2609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 150,
+              "DocumentIndex": 151,
               "Title": "PagedParameters.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\Parameters\\PagedParameters.cs",
               "RelativeDocumentMoniker": "CatalogService.Domain\\Entities\\Parameters\\PagedParameters.cs",
@@ -2654,7 +2621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 151,
+              "DocumentIndex": 152,
               "Title": "QueryStringParameters.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\Parameters\\QueryStringParameters.cs",
               "RelativeDocumentMoniker": "CatalogService.Domain\\Entities\\Parameters\\QueryStringParameters.cs",
@@ -2666,7 +2633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 148,
+              "DocumentIndex": 149,
               "Title": "QueryablePagingExtensions.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Extensions\\QueryablePagingExtensions.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Extensions\\QueryablePagingExtensions.cs",
@@ -2678,7 +2645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 152,
+              "DocumentIndex": 153,
               "Title": "QueryableExtensions.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Extensions\\QueryableExtensions.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Extensions\\QueryableExtensions.cs",
@@ -2690,7 +2657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 153,
+              "DocumentIndex": 154,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\UOW\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\UOW\\UnitOfWork.cs",
@@ -2702,7 +2669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 154,
+              "DocumentIndex": 155,
               "Title": "PagedList.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Helpers\\PagedList.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Helpers\\PagedList.cs",
@@ -2714,7 +2681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 155,
+              "DocumentIndex": 156,
               "Title": "SortHelper.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Helpers\\SortHelper.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Helpers\\SortHelper.cs",
@@ -2726,7 +2693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 156,
+              "DocumentIndex": 157,
               "Title": "ISortHelper.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Helpers\\ISortHelper.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Helpers\\ISortHelper.cs",
@@ -2738,7 +2705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 157,
+              "DocumentIndex": 158,
               "Title": "InstrumentImageConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Configuration\\InstrumentImageConfiguration.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Configuration\\InstrumentImageConfiguration.cs",
@@ -2750,7 +2717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 160,
+              "DocumentIndex": 161,
               "Title": "ConcertProgramConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Configuration\\ConcertProgramConfiguration.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Configuration\\ConcertProgramConfiguration.cs",
@@ -2762,7 +2729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 161,
+              "DocumentIndex": 162,
               "Title": "CompositionConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Configuration\\CompositionConfiguration.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Configuration\\CompositionConfiguration.cs",
@@ -2774,7 +2741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 158,
+              "DocumentIndex": 159,
               "Title": "PerformerConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\Configuration\\PerformerConfiguration.cs",
               "RelativeDocumentMoniker": "CatalogService.DAL\\Configuration\\PerformerConfiguration.cs",
@@ -2786,7 +2753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 159,
+              "DocumentIndex": 160,
               "Title": "InstrumentImage.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\Entities\\InstrumentImage.cs",
               "RelativeDocumentMoniker": "CatalogService.Domain\\Entities\\InstrumentImage.cs",
@@ -2798,7 +2765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 164,
+              "DocumentIndex": 165,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Repositories\\Interfaces\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Repositories\\Interfaces\\IOrderRepository.cs",
@@ -2810,7 +2777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 162,
+              "DocumentIndex": 163,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\OrderService.cs",
@@ -2822,7 +2789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 163,
+              "DocumentIndex": 164,
               "Title": "OrderItemService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\OrderItemService.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\OrderItemService.cs",
@@ -2834,7 +2801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 166,
+              "DocumentIndex": 167,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\ProductService.cs",
@@ -2846,7 +2813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 165,
+              "DocumentIndex": 166,
               "Title": "CustomerMappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Mappings\\CustomerMappingProfile.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Mappings\\CustomerMappingProfile.cs",
@@ -2858,7 +2825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 167,
+              "DocumentIndex": 168,
               "Title": "GlobalExceptionHandlingMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.API\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
@@ -2870,7 +2837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 172,
+              "DocumentIndex": 173,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\Interfaces\\IProductService.cs",
@@ -2882,7 +2849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 171,
+              "DocumentIndex": 172,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\Interfaces\\IOrderService.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\Interfaces\\IOrderService.cs",
@@ -2894,7 +2861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 170,
+              "DocumentIndex": 171,
               "Title": "IOrderItemService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\Interfaces\\IOrderItemService.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\Interfaces\\IOrderItemService.cs",
@@ -2906,7 +2873,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 168,
+              "DocumentIndex": 169,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\CustomerService.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\CustomerService.cs",
@@ -2918,7 +2885,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 173,
+              "DocumentIndex": 174,
               "Title": "ProductUpdate.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Product\\ProductUpdate.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Product\\ProductUpdate.cs",
@@ -2930,7 +2897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 174,
+              "DocumentIndex": 175,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Product\\ProductDto.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Product\\ProductDto.cs",
@@ -2942,7 +2909,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 169,
+              "DocumentIndex": 170,
               "Title": "ICustomerService.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\Services\\Interfaces\\ICustomerService.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\Services\\Interfaces\\ICustomerService.cs",
@@ -2954,7 +2921,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 175,
+              "DocumentIndex": 176,
               "Title": "ProductCreate.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Product\\ProductCreate.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Product\\ProductCreate.cs",
@@ -2966,7 +2933,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 176,
+              "DocumentIndex": 177,
               "Title": "OrderItemCreate.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\OrderItem\\OrderItemCreate.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\OrderItem\\OrderItemCreate.cs",
@@ -2978,7 +2945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 177,
+              "DocumentIndex": 178,
               "Title": "OrderUpdate.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Order\\OrderUpdate.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Order\\OrderUpdate.cs",
@@ -2990,7 +2957,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 178,
+              "DocumentIndex": 179,
               "Title": "OrderDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Order\\OrderDto.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Order\\OrderDto.cs",
@@ -3002,7 +2969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 179,
+              "DocumentIndex": 180,
               "Title": "OrderCreate.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Order\\OrderCreate.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Order\\OrderCreate.cs",
@@ -3014,7 +2981,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 180,
+              "DocumentIndex": 181,
               "Title": "CustomerUpdate.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Customer\\CustomerUpdate.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Customer\\CustomerUpdate.cs",
@@ -3026,7 +2993,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 181,
+              "DocumentIndex": 182,
               "Title": "CustomerDto.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Customer\\CustomerDto.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Customer\\CustomerDto.cs",
@@ -3038,7 +3005,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 182,
+              "DocumentIndex": 183,
               "Title": "CustomerCreate.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\DTOs\\Customer\\CustomerCreate.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.BLL\\DTOs\\Customer\\CustomerCreate.cs",
@@ -3050,7 +3017,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 183,
+              "DocumentIndex": 184,
               "Title": "OrderItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Repositories\\OrderItemRepository.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Repositories\\OrderItemRepository.cs",
@@ -3062,7 +3029,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 186,
+              "DocumentIndex": 187,
               "Title": "IOrderItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Repositories\\Interfaces\\IOrderItemRepository.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Repositories\\Interfaces\\IOrderItemRepository.cs",
@@ -3074,7 +3041,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 187,
+              "DocumentIndex": 188,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Repositories\\Interfaces\\IProductRepository.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Repositories\\Interfaces\\IProductRepository.cs",
@@ -3086,7 +3053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 185,
+              "DocumentIndex": 186,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\UOW\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\UOW\\IUnitOfWork.cs",
@@ -3098,7 +3065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 184,
+              "DocumentIndex": 185,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\UOW\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\UOW\\UnitOfWork.cs",
@@ -3110,7 +3077,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 188,
+              "DocumentIndex": 189,
               "Title": "ICustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\Repositories\\Interfaces\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.DAL\\Repositories\\Interfaces\\ICustomerRepository.cs",
@@ -3122,7 +3089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 189,
+              "DocumentIndex": 190,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.Domain\\Entities\\Product.cs",
@@ -3134,7 +3101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 190,
+              "DocumentIndex": 191,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\Entities\\OrderItem.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.Domain\\Entities\\OrderItem.cs",
@@ -3146,7 +3113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 191,
+              "DocumentIndex": 192,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.Domain\\Entities\\Order.cs",
@@ -3158,7 +3125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 192,
+              "DocumentIndex": 193,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\Entities\\Customer.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.Domain\\Entities\\Customer.cs",
@@ -3170,7 +3137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 193,
+              "DocumentIndex": 194,
               "Title": "ValidationException.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\Exceptions\\ValidationException.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.Domain\\Exceptions\\ValidationException.cs",
@@ -3182,7 +3149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 194,
+              "DocumentIndex": 195,
               "Title": "BusinessConflictException.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\Exceptions\\BusinessConflictException.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.Domain\\Exceptions\\BusinessConflictException.cs",
@@ -3194,7 +3161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 195,
+              "DocumentIndex": 196,
               "Title": "NotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\Exceptions\\NotFoundException.cs",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.Domain\\Exceptions\\NotFoundException.cs",
@@ -3206,7 +3173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 196,
+              "DocumentIndex": 197,
               "Title": "OrderService.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\OrderService.Domain.csproj",
               "RelativeDocumentMoniker": "MusicOrchestraOrder.Domain\\OrderService.Domain.csproj",

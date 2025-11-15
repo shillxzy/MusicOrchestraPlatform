@@ -812,7 +812,7 @@
               "RelativeDocumentMoniker": "RewievsService.API\\appsettings.json",
               "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.API\\appsettings.json",
               "RelativeToolTip": "RewievsService.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-11-15T14:31:07.524Z",
               "EditorCaption": ""
@@ -861,7 +861,7 @@
               "RelativeDocumentMoniker": "RewievsService.API\\Program.cs",
               "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.API\\Program.cs",
               "RelativeToolTip": "RewievsService.API\\Program.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-15T13:28:03.403Z",
               "EditorCaption": ""
@@ -876,8 +876,7 @@
               "RelativeToolTip": "RewievsService.Infrastructure\\Repositories\\MongoRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAiwBIAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:31:03.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T10:31:03.826Z"
             },
             {
               "$type": "Document",
@@ -887,7 +886,7 @@
               "RelativeDocumentMoniker": "RewievsService.Infrastructure\\Data\\MongoDbContext.cs",
               "ToolTip": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\Data\\MongoDbContext.cs",
               "RelativeToolTip": "RewievsService.Infrastructure\\Data\\MongoDbContext.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAqwCwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwCcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T10:42:01.512Z",
               "EditorCaption": ""

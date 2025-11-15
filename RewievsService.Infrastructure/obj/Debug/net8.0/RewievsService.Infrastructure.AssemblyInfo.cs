@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RewievsService.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e98302638de4bac70d50185970590732d0559e60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1597d5850d94f7ffa09eebfeaca8315d8ac56f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("RewievsService.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RewievsService.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

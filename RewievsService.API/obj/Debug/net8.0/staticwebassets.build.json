@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "YA4AEKb0p5O9e263gbWm2M5kTiB4zcAjmC8PVUsngKM=",
+  "Source": "RewievsService.API",
+  "BasePath": "_content/RewievsService.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

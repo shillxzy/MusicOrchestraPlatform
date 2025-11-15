@@ -1,5 +1,4 @@
 using MediatR;
-using MongoDB.Driver;
 using RewievsService.Application.Behaviors;
 using RewievsService.Application.Services;
 using RewievsService.Domain.Interfaces.Repositories;
@@ -8,7 +7,7 @@ using RewievsService.Infrastructure.Configuration;
 using RewievsService.Infrastructure.Data;
 using RewievsService.Infrastructure.Repositories;
 using FluentValidation;
-
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,13 +16,11 @@ builder.Services.Configure<MongoDbSettings>(
     builder.Configuration.GetSection("MongoDbSettings"));
 
 // ----------------- MongoDB -----------------
-builder.Services.AddSingleton<IMongoClient>(sp =>
+builder.Services.AddSingleton<MongoDbContext>(sp =>
 {
-    var settings = builder.Configuration.GetSection("MongoDbSettings").Get<MongoDbSettings>();
-    return new MongoClient(settings.ConnectionString);
+    var settings = sp.GetRequiredService<IOptions<MongoDbSettings>>().Value;
+    return new MongoDbContext(settings.ConnectionString, settings.DatabaseName);
 });
-
-builder.Services.AddSingleton<MongoDbContext>();
 
 // ----------------- Repositories -----------------
 builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
@@ -51,6 +48,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+// ----------------- Seed Mongo -----------------
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<MongoDbContext>();
+}
 
 // ----------------- Pipeline -----------------
 if (app.Environment.IsDevelopment())

@@ -1,0 +1,16 @@
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Infrastructure\bin\Debug\net8.0\RewievsService.Infrastructure.deps.json
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Infrastructure\bin\Debug\net8.0\RewievsService.Infrastructure.dll
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Infrastructure\bin\Debug\net8.0\RewievsService.Infrastructure.pdb
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Infrastructure\bin\Debug\net8.0\RewievsService.Domain.dll
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Infrastructure\bin\Debug\net8.0\RewievsService.Domain.pdb
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Infrastructure\obj\Debug\net8.0\RewievsService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Infrastructure\obj\Debug\net8.0\RewievsService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Infrastructure\obj\Debug\net8.0\RewievsService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Infrastructure\obj\Debug\net8.0\RewievsService.Infrastructure.AssemblyInfo.cs
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Infrastructure\obj\Debug\net8.0\RewievsService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Infrastructure\obj\Debug\net8.0\RewievsService.Infrastructure.sourcelink.json
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Infrastructure\obj\Debug\net8.0\RewievsS.A52BA6FF.Up2Date
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Infrastructure\obj\Debug\net8.0\RewievsService.Infrastructure.dll
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Infrastructure\obj\Debug\net8.0\refint\RewievsService.Infrastructure.dll
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Infrastructure\obj\Debug\net8.0\RewievsService.Infrastructure.pdb
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Infrastructure\obj\Debug\net8.0\ref\RewievsService.Infrastructure.dll

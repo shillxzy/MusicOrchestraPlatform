@@ -1,0 +1,13 @@
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Domain\bin\Debug\net8.0\RewievsService.Domain.deps.json
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Domain\bin\Debug\net8.0\RewievsService.Domain.dll
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Domain\bin\Debug\net8.0\RewievsService.Domain.pdb
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Domain\obj\Debug\net8.0\RewievsService.Domain.csproj.AssemblyReference.cache
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Domain\obj\Debug\net8.0\RewievsService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Domain\obj\Debug\net8.0\RewievsService.Domain.AssemblyInfoInputs.cache
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Domain\obj\Debug\net8.0\RewievsService.Domain.AssemblyInfo.cs
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Domain\obj\Debug\net8.0\RewievsService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Domain\obj\Debug\net8.0\RewievsService.Domain.sourcelink.json
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Domain\obj\Debug\net8.0\RewievsService.Domain.dll
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Domain\obj\Debug\net8.0\refint\RewievsService.Domain.dll
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Domain\obj\Debug\net8.0\RewievsService.Domain.pdb
+C:\Users\dmska\source\repos\MusicOrchestraPlatform\RewievsService.Domain\obj\Debug\net8.0\ref\RewievsService.Domain.dll
