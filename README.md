@@ -74,7 +74,7 @@ CatalogService   OrderService     ReviewService
 
 **Мета:** управління клієнтами, замовленнями та складом замовлень.  
 **База:** PostgreSQL  
-**Технології:** `.NET 8 + EF Core`
+**Технології:** `.NET 8 + ADO.NET Dapper`
 
 #### Основні сутності:
 
