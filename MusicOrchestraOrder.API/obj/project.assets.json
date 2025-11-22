@@ -985,23 +985,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dmska\\.nuget\\packages\\": {},
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\": {},
     "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\OrderService.API.csproj",
+      "projectUniqueName": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\OrderService.API.csproj",
       "projectName": "OrderService.API",
-      "projectPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\OrderService.API.csproj",
-      "packagesPath": "C:\\Users\\dmska\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\obj\\",
+      "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\OrderService.API.csproj",
+      "packagesPath": "C:\\Users\\Shillxzy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dmska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Shillxzy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1016,14 +1016,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\OrderService.BLL.csproj": {
-              "projectPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\OrderService.BLL.csproj"
+            "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\OrderService.BLL.csproj": {
+              "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.BLL\\OrderService.BLL.csproj"
             },
-            "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\OrderService.DAL.csproj": {
-              "projectPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\OrderService.DAL.csproj"
+            "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\OrderService.DAL.csproj": {
+              "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.DAL\\OrderService.DAL.csproj"
             },
-            "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\OrderService.Domain.csproj": {
-              "projectPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\OrderService.Domain.csproj"
+            "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\OrderService.Domain.csproj": {
+              "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraOrder.Domain\\OrderService.Domain.csproj"
             }
           }
         }
@@ -1038,7 +1038,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -1068,7 +1068,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

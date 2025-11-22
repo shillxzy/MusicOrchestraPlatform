@@ -1,0 +1,6 @@
+@MusicOrchestraPlatform.Aggregator_HostAddress = http://localhost:5041
+
+GET {{MusicOrchestraPlatform.Aggregator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

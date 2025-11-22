@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Sdk Name="Aspire.AppHost.Sdk" Version="9.5.0" />
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<UserSecretsId>ef5fadc2-1488-40f5-ad61-f454fd9df69f</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Aspire.Hosting.AppHost" Version="13.0.0" />
+		<PackageReference Include="Aspire.Hosting.Keycloak" Version="9.5.2-preview.1.25522.3" />
+		<PackageReference Include="Aspire.Hosting.MongoDB" Version="9.5.0" />
+		<PackageReference Include="Aspire.Hosting.PostgreSQL" Version="9.5.0" />
+		<PackageReference Include="Aspire.Hosting.RabbitMQ" Version="9.5.0" />
+		<PackageReference Include="Aspire.Hosting.Redis" Version="9.5.0" />
+	</ItemGroup>
+
+</Project>

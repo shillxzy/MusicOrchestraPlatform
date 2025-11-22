@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\CatalogService.BLL.csproj": {}
+    "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\CatalogService.BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\CatalogService.BLL.csproj": {
+    "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\CatalogService.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\CatalogService.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\CatalogService.BLL.csproj",
         "projectName": "CatalogService.BLL",
-        "projectPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\CatalogService.BLL.csproj",
-        "packagesPath": "C:\\Users\\dmska\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\obj\\",
+        "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\CatalogService.BLL.csproj",
+        "packagesPath": "C:\\Users\\Shillxzy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\CatalogService.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dmska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Shillxzy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\CatalogService.DAL.csproj": {
-                "projectPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\CatalogService.DAL.csproj"
+              "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\CatalogService.DAL.csproj": {
+                "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\CatalogService.DAL.csproj"
               }
             }
           }
@@ -48,7 +48,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -79,24 +79,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\CatalogService.DAL.csproj": {
+    "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\CatalogService.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\CatalogService.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\CatalogService.DAL.csproj",
         "projectName": "CatalogService.DAL",
-        "projectPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\CatalogService.DAL.csproj",
-        "packagesPath": "C:\\Users\\dmska\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\obj\\",
+        "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\CatalogService.DAL.csproj",
+        "packagesPath": "C:\\Users\\Shillxzy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\CatalogService.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dmska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Shillxzy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -111,8 +111,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\CatalogService.Domain.csproj": {
-                "projectPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\CatalogService.Domain.csproj"
+              "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\CatalogService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\CatalogService.Domain.csproj"
               }
             }
           }
@@ -127,7 +127,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -174,24 +174,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\CatalogService.Domain.csproj": {
+    "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\CatalogService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\CatalogService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\CatalogService.Domain.csproj",
         "projectName": "CatalogService.Domain",
-        "projectPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\CatalogService.Domain.csproj",
-        "packagesPath": "C:\\Users\\dmska\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\CatalogService.Domain.csproj",
+        "packagesPath": "C:\\Users\\Shillxzy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\CatalogService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dmska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Shillxzy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -218,7 +218,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -239,7 +239,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

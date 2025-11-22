@@ -10,3 +10,15 @@ C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.Domain\obj\Deb
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.Domain\obj\Debug\net8.0\refint\CatalogService.Domain.dll
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.Domain\obj\Debug\net8.0\CatalogService.Domain.pdb
 C:\Users\dmska\source\repos\MusicOrchestraPlatform\CatalogService.Domain\obj\Debug\net8.0\ref\CatalogService.Domain.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.Domain\bin\Debug\net8.0\CatalogService.Domain.deps.json
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.Domain\bin\Debug\net8.0\CatalogService.Domain.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.Domain\bin\Debug\net8.0\CatalogService.Domain.pdb
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.Domain\obj\Debug\net8.0\CatalogService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.Domain\obj\Debug\net8.0\CatalogService.Domain.AssemblyInfoInputs.cache
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.Domain\obj\Debug\net8.0\CatalogService.Domain.AssemblyInfo.cs
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.Domain\obj\Debug\net8.0\CatalogService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.Domain\obj\Debug\net8.0\CatalogService.Domain.sourcelink.json
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.Domain\obj\Debug\net8.0\CatalogService.Domain.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.Domain\obj\Debug\net8.0\refint\CatalogService.Domain.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.Domain\obj\Debug\net8.0\CatalogService.Domain.pdb
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.Domain\obj\Debug\net8.0\ref\CatalogService.Domain.dll

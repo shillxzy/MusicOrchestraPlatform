@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QwC8Ua/FnoQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraPlatform.ApiGateway\\MusicOrchestraPlatform.ApiGateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0\\microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

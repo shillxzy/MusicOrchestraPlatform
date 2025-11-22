@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\RewievsService.Application.csproj": {}
+    "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\RewievsService.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\RewievsService.Application.csproj": {
+    "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\RewievsService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\RewievsService.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\RewievsService.Application.csproj",
         "projectName": "RewievsService.Application",
-        "projectPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\RewievsService.Application.csproj",
-        "packagesPath": "C:\\Users\\dmska\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\obj\\",
+        "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\RewievsService.Application.csproj",
+        "packagesPath": "C:\\Users\\Shillxzy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dmska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Shillxzy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\RewievsService.Domain.csproj": {
-                "projectPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\RewievsService.Domain.csproj"
+              "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\RewievsService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\RewievsService.Domain.csproj"
               },
-              "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj"
+              "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj"
               }
             }
           }
@@ -51,7 +51,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -82,24 +82,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\RewievsService.Domain.csproj": {
+    "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\RewievsService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\RewievsService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\RewievsService.Domain.csproj",
         "projectName": "RewievsService.Domain",
-        "projectPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\RewievsService.Domain.csproj",
-        "packagesPath": "C:\\Users\\dmska\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\RewievsService.Domain.csproj",
+        "packagesPath": "C:\\Users\\Shillxzy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dmska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Shillxzy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -126,7 +126,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -161,24 +161,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj": {
+    "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj",
         "projectName": "RewievsService.Infrastructure",
-        "projectPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\dmska\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\RewievsService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Shillxzy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dmska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Shillxzy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -193,8 +193,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\RewievsService.Domain.csproj": {
-                "projectPath": "C:\\Users\\dmska\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\RewievsService.Domain.csproj"
+              "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\RewievsService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\RewievsService.Domain\\RewievsService.Domain.csproj"
               }
             }
           }
@@ -209,7 +209,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -236,7 +236,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
