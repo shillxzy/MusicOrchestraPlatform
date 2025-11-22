@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MusicOrchestraPlatform.Aggregator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb73a6ec0ce31c14f6d6941841f379efc299cb9a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+859e862f9afedbfc1bdfb4c87e8f762c0e2c9061")]
 [assembly: System.Reflection.AssemblyProductAttribute("MusicOrchestraPlatform.Aggregator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MusicOrchestraPlatform.Aggregator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,23 +1,31 @@
+using MusicOrchestraPlatform.ApiGateway.Middleware;
+using Serilog;
+using Serilog.Formatting.Compact;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Serilog конфіг
+builder.Host.UseSerilog((context, services, loggerConfig) =>
+{
+    loggerConfig
+        .MinimumLevel.Information()
+        .Enrich.FromLogContext()
+        .Enrich.WithProperty("ServiceName", "ApiGateway")
+        .Enrich.WithEnvironmentName()
+        .Enrich.WithMachineName()
+        .WriteTo.Console(new CompactJsonFormatter());
+});
 
-builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+// YARP reverse proxy
+builder.Services.AddReverseProxy()
+    .LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-}
+// CorrelationId middleware
+app.UseCorrelationId();
 
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
+// Reverse proxy mapping
+app.MapReverseProxy();
 
 app.Run();

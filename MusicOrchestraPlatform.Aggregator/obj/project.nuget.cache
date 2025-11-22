@@ -1,11 +1,51 @@
 {
   "version": 2,
-  "dgSpecHash": "U3NbO+lXqEo=",
-  "success": true,
+  "dgSpecHash": "/3HhT+VUH9I=",
+  "success": false,
   "projectFilePath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraPlatform.Aggregator\\MusicOrchestraPlatform.Aggregator.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\aspire.stackexchange.redis\\9.5.2\\aspire.stackexchange.redis.9.5.2.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\aspnetcore.healthchecks.redis\\9.0.0\\aspnetcore.healthchecks.redis.9.0.0.nupkg.sha512",
     "C:\\Users\\Shillxzy\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0\\microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
-    "C:\\Users\\Shillxzy\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\microsoft.extensions.dependencyinjection.autoactivation\\9.9.0\\microsoft.extensions.dependencyinjection.autoactivation.9.9.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\microsoft.extensions.dependencymodel\\7.0.0\\microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\opentelemetry\\1.14.0\\opentelemetry.1.14.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\opentelemetry.api\\1.14.0\\opentelemetry.api.1.14.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\opentelemetry.api.providerbuilderextensions\\1.14.0\\opentelemetry.api.providerbuilderextensions.1.14.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\opentelemetry.exporter.opentelemetryprotocol\\1.14.0\\opentelemetry.exporter.opentelemetryprotocol.1.14.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\opentelemetry.extensions.hosting\\1.14.0\\opentelemetry.extensions.hosting.1.14.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\opentelemetry.instrumentation.aspnetcore\\1.14.0\\opentelemetry.instrumentation.aspnetcore.1.14.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\opentelemetry.instrumentation.http\\1.14.0\\opentelemetry.instrumentation.http.1.14.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\serilog\\2.12.0\\serilog.2.12.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\serilog.aspnetcore\\7.0.0\\serilog.aspnetcore.7.0.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\serilog.enrichers.environment\\2.2.0\\serilog.enrichers.environment.2.2.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\serilog.extensions.hosting\\7.0.0\\serilog.extensions.hosting.7.0.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\serilog.extensions.logging\\7.0.0\\serilog.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\serilog.formatting.compact\\1.1.0\\serilog.formatting.compact.1.1.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\serilog.settings.configuration\\7.0.0\\serilog.settings.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\serilog.sinks.console\\4.0.1\\serilog.sinks.console.4.0.1.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\stackexchange.redis\\2.9.11\\stackexchange.redis.2.9.11.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1103",
+      "level": "Error",
+      "message": "Unable to find a stable package OpenTelemetry.Instrumentation.SqlClient with version (>= 1.13.0)\r\n  - Found 46 version(s) in nuget.org [ Nearest version: 1.14.0-beta.1 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages",
+      "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraPlatform.Aggregator\\MusicOrchestraPlatform.Aggregator.csproj",
+      "filePath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraPlatform.Aggregator\\MusicOrchestraPlatform.Aggregator.csproj",
+      "libraryId": "OpenTelemetry.Instrumentation.SqlClient",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
