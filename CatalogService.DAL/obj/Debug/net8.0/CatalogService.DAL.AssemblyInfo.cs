@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CatalogService.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcaab26b65c0968538fcf0b8fc6b60d062ccae2c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb73a6ec0ce31c14f6d6941841f379efc299cb9a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CatalogService.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CatalogService.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

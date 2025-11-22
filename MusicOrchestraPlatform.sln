@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicOrchestraPlatform.ApiG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicOrchestraPlatform.Aggregator", "MusicOrchestraPlatform.Aggregator\MusicOrchestraPlatform.Aggregator.csproj", "{33910705-3019-5142-3FBD-265C04BFF98B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicOrchestraPlatform.ServiceDefaults", "MusicOrchestraPlatform.ServiceDefaults\MusicOrchestraPlatform.ServiceDefaults.csproj", "{5B3C4AB3-1E1E-4226-A0E6-9521CE52B114}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +115,10 @@ Global
 		{33910705-3019-5142-3FBD-265C04BFF98B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33910705-3019-5142-3FBD-265C04BFF98B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33910705-3019-5142-3FBD-265C04BFF98B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B3C4AB3-1E1E-4226-A0E6-9521CE52B114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B3C4AB3-1E1E-4226-A0E6-9521CE52B114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B3C4AB3-1E1E-4226-A0E6-9521CE52B114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B3C4AB3-1E1E-4226-A0E6-9521CE52B114}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -133,6 +139,7 @@ Global
 		{36AC8145-63B7-FBB1-906B-88C6807002F9} = {C06D79AE-C082-415B-AD1A-C32E2180F7CD}
 		{6B5080E5-B115-31EC-70BC-35B4FA178203} = {F3577D33-A06C-4A62-9263-C645806277B3}
 		{33910705-3019-5142-3FBD-265C04BFF98B} = {4EB7DC5C-2D2A-4B0D-91D8-5181D8F0B4E8}
+		{5B3C4AB3-1E1E-4226-A0E6-9521CE52B114} = {6EEB4327-DFA8-48DE-A491-A9C60A01FC03}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CF13616-B995-4936-AA86-C7E19C910241}

@@ -1,0 +1,13 @@
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraPlatform.ServiceDefaults\bin\Debug\net8.0\MusicOrchestraPlatform.ServiceDefaults.deps.json
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraPlatform.ServiceDefaults\bin\Debug\net8.0\MusicOrchestraPlatform.ServiceDefaults.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraPlatform.ServiceDefaults\bin\Debug\net8.0\MusicOrchestraPlatform.ServiceDefaults.pdb
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraPlatform.ServiceDefaults\obj\Debug\net8.0\MusicOrchestraPlatform.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraPlatform.ServiceDefaults\obj\Debug\net8.0\MusicOrchestraPlatform.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraPlatform.ServiceDefaults\obj\Debug\net8.0\MusicOrchestraPlatform.ServiceDefaults.AssemblyInfo.cs
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraPlatform.ServiceDefaults\obj\Debug\net8.0\MusicOrchestraPlatform.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraPlatform.ServiceDefaults\obj\Debug\net8.0\MusicOrchestraPlatform.ServiceDefaults.sourcelink.json
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraPlatform.ServiceDefaults\obj\Debug\net8.0\MusicOrchestraPlatform.ServiceDefaults.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraPlatform.ServiceDefaults\obj\Debug\net8.0\refint\MusicOrchestraPlatform.ServiceDefaults.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraPlatform.ServiceDefaults\obj\Debug\net8.0\MusicOrchestraPlatform.ServiceDefaults.pdb
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraPlatform.ServiceDefaults\obj\Debug\net8.0\ref\MusicOrchestraPlatform.ServiceDefaults.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraPlatform.ServiceDefaults\obj\Debug\net8.0\MusicOrchestraPlatform.ServiceDefaults.csproj.AssemblyReference.cache
