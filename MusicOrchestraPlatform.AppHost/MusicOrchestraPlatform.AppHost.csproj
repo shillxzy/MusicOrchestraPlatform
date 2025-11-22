@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.4.0" />
+
+	<ItemGroup>
+		<PackageReference Include="Aspire.Hosting.AppHost" Version="9.5.0" />
+		<PackageReference Include="Aspire.Hosting.Keycloak" Version="9.5.2-preview.1.25522.3" />
+		<PackageReference Include="Aspire.Hosting.MongoDB" Version="9.5.0" />
+		<PackageReference Include="Aspire.Hosting.PostgreSQL" Version="9.5.0" />
+		<PackageReference Include="Aspire.Hosting.RabbitMQ" Version="9.5.0" />
+		<PackageReference Include="Aspire.Hosting.Redis" Version="9.5.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\..\source\repos\MusicOrchestraPlatform\CatalogService.API\CatalogService.API.csproj" />
+	  <ProjectReference Include="..\..\..\..\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.API\OrderService.API.csproj" />
+	  <ProjectReference Include="..\..\..\..\source\repos\MusicOrchestraPlatform\MusicOrchestraPlatform.Aggregator\MusicOrchestraPlatform.Aggregator.csproj" />
+	  <ProjectReference Include="..\..\..\..\source\repos\MusicOrchestraPlatform\MusicOrchestraPlatform.ApiGateway\MusicOrchestraPlatform.ApiGateway.csproj" />
+	  <ProjectReference Include="..\..\..\..\source\repos\MusicOrchestraPlatform\MusicOrchestraPlatform.ServiceDefaults\MusicOrchestraPlatform.ServiceDefaults.csproj" />
+	  <ProjectReference Include="..\..\..\..\source\repos\MusicOrchestraPlatform\RewievsService.API\RewievsService.API.csproj" />
+	</ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+  </PropertyGroup>
+
+</Project>
