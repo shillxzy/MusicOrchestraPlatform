@@ -230,6 +230,22 @@
           }
         }
       },
+      "OpenTelemetry.Instrumentation.SqlClient/1.14.0-beta.1": {
+        "type": "package",
+        "dependencies": {
+          "OpenTelemetry.Api.ProviderBuilderExtensions": "[1.14.0, 2.0.0)"
+        },
+        "compile": {
+          "lib/net10.0/OpenTelemetry.Instrumentation.SqlClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/OpenTelemetry.Instrumentation.SqlClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Pipelines.Sockets.Unofficial/2.2.8": {
         "type": "package",
         "compile": {
@@ -495,7 +511,7 @@
           "OpenTelemetry.Extensions.Hosting": "1.14.0",
           "OpenTelemetry.Instrumentation.AspNetCore": "1.14.0",
           "OpenTelemetry.Instrumentation.Http": "1.14.0",
-          "OpenTelemetry.Instrumentation.SqlClient": "1.13.0",
+          "OpenTelemetry.Instrumentation.SqlClient": "1.14.0-beta.1",
           "Serilog.AspNetCore": "7.0.0",
           "Serilog.Enrichers.Environment": "2.2.0",
           "Serilog.Formatting.Compact": "1.1.0"
@@ -1061,6 +1077,28 @@
         "opentelemetry-icon-color.png",
         "opentelemetry.instrumentation.http.1.14.0.nupkg.sha512",
         "opentelemetry.instrumentation.http.nuspec"
+      ]
+    },
+    "OpenTelemetry.Instrumentation.SqlClient/1.14.0-beta.1": {
+      "sha512": "524CV7OUVTJ+F4L0dDukVByTl9+aihMo8vv917X2oujoFpx75CXA/DF/kHGYPOYpyAKyKGZpOhfRQ0TP6NHArw==",
+      "type": "package",
+      "path": "opentelemetry.instrumentation.sqlclient/1.14.0-beta.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "README.md",
+        "lib/net10.0/OpenTelemetry.Instrumentation.SqlClient.dll",
+        "lib/net10.0/OpenTelemetry.Instrumentation.SqlClient.xml",
+        "lib/net462/OpenTelemetry.Instrumentation.SqlClient.dll",
+        "lib/net462/OpenTelemetry.Instrumentation.SqlClient.xml",
+        "lib/net8.0/OpenTelemetry.Instrumentation.SqlClient.dll",
+        "lib/net8.0/OpenTelemetry.Instrumentation.SqlClient.xml",
+        "lib/netstandard2.0/OpenTelemetry.Instrumentation.SqlClient.dll",
+        "lib/netstandard2.0/OpenTelemetry.Instrumentation.SqlClient.xml",
+        "opentelemetry-icon-color.png",
+        "opentelemetry.instrumentation.sqlclient.1.14.0-beta.1.nupkg.sha512",
+        "opentelemetry.instrumentation.sqlclient.nuspec"
       ]
     },
     "Pipelines.Sockets.Unofficial/2.2.8": {
@@ -1947,16 +1985,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1103",
-      "level": "Error",
-      "message": "Unable to find a stable package OpenTelemetry.Instrumentation.SqlClient with version (>= 1.13.0)\r\n  - Found 46 version(s) in nuget.org [ Nearest version: 1.14.0-beta.1 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages",
-      "libraryId": "OpenTelemetry.Instrumentation.SqlClient",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  }
 }

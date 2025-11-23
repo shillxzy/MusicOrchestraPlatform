@@ -46,7 +46,7 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-// Роутинг контролерів
+app.MapHealthChecks("/health");
 app.MapControllers();
 
 app.Run();

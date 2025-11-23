@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "/3HhT+VUH9I=",
-  "success": false,
+  "dgSpecHash": "7ElnRXwlQzc=",
+  "success": true,
   "projectFilePath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraPlatform.Aggregator\\MusicOrchestraPlatform.Aggregator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Shillxzy\\.nuget\\packages\\aspire.stackexchange.redis\\9.5.2\\aspire.stackexchange.redis.9.5.2.nupkg.sha512",
@@ -18,6 +18,7 @@
     "C:\\Users\\Shillxzy\\.nuget\\packages\\opentelemetry.extensions.hosting\\1.14.0\\opentelemetry.extensions.hosting.1.14.0.nupkg.sha512",
     "C:\\Users\\Shillxzy\\.nuget\\packages\\opentelemetry.instrumentation.aspnetcore\\1.14.0\\opentelemetry.instrumentation.aspnetcore.1.14.0.nupkg.sha512",
     "C:\\Users\\Shillxzy\\.nuget\\packages\\opentelemetry.instrumentation.http\\1.14.0\\opentelemetry.instrumentation.http.1.14.0.nupkg.sha512",
+    "C:\\Users\\Shillxzy\\.nuget\\packages\\opentelemetry.instrumentation.sqlclient\\1.14.0-beta.1\\opentelemetry.instrumentation.sqlclient.1.14.0-beta.1.nupkg.sha512",
     "C:\\Users\\Shillxzy\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\Shillxzy\\.nuget\\packages\\serilog\\2.12.0\\serilog.2.12.0.nupkg.sha512",
     "C:\\Users\\Shillxzy\\.nuget\\packages\\serilog.aspnetcore\\7.0.0\\serilog.aspnetcore.7.0.0.nupkg.sha512",
@@ -35,17 +36,5 @@
     "C:\\Users\\Shillxzy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
     "C:\\Users\\Shillxzy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1103",
-      "level": "Error",
-      "message": "Unable to find a stable package OpenTelemetry.Instrumentation.SqlClient with version (>= 1.13.0)\r\n  - Found 46 version(s) in nuget.org [ Nearest version: 1.14.0-beta.1 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages",
-      "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraPlatform.Aggregator\\MusicOrchestraPlatform.Aggregator.csproj",
-      "filePath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraPlatform.Aggregator\\MusicOrchestraPlatform.Aggregator.csproj",
-      "libraryId": "OpenTelemetry.Instrumentation.SqlClient",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }

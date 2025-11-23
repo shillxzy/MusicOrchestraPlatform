@@ -572,7 +572,7 @@
             },
             "OpenTelemetry.Instrumentation.SqlClient": {
               "target": "Package",
-              "version": "[1.13.0, )"
+              "version": "[1.14.0-beta.1, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
