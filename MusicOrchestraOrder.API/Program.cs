@@ -66,6 +66,12 @@ builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IOrderService, BllOrderService>();
 builder.Services.AddScoped<IOrderItemService, OrderItemService>();
 
+// Memory
+builder.Services.AddMemoryCache(options =>
+{
+    options.SizeLimit = 1024;
+});
+
 // CORS
 builder.Services.AddCors(options =>
 {
@@ -85,6 +91,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+
 
 app.UseHttpsRedirection();
 

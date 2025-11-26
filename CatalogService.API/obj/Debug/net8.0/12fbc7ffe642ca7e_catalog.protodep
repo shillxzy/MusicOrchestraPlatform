@@ -1,1 +1,2 @@
-obj\Debug\net8.0\Protos/Catalog.cs: Protos/catalog.proto
+obj\Debug\net8.0\Protos/Catalog.cs \
+obj\Debug\net8.0\Protos/CatalogGrpc.cs: Protos/catalog.proto

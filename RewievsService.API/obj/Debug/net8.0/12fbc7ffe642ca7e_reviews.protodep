@@ -1,1 +1,2 @@
-obj\Debug\net8.0\Protos/Reviews.cs: Protos/reviews.proto
+obj\Debug\net8.0\Protos/Reviews.cs \
+obj\Debug\net8.0\Protos/ReviewsGrpc.cs: Protos/reviews.proto
