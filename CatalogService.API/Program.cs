@@ -13,6 +13,8 @@ using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
+using OpenTelemetry.Trace;
+using OpenTelemetry.Resources;
 
 
 
@@ -66,6 +68,22 @@ builder.Services.AddStackExchangeRedisCache(options =>
 });
 
 builder.Services.AddScoped<CatalogGrpcService>();
+
+builder.Services.AddOpenTelemetry()
+    .WithTracing(tracerProviderBuilder =>
+    {
+        tracerProviderBuilder
+            .SetResourceBuilder(ResourceBuilder.CreateDefault().AddService("CatalogService"))
+            .AddAspNetCoreInstrumentation() 
+            .AddHttpClientInstrumentation(options =>
+            {
+                options.EnrichWithHttpRequestMessage = (activity, request) =>
+                {
+                    activity.SetTag("grpc.method", request.RequestUri?.AbsolutePath);
+                };
+            })
+            .AddConsoleExporter();
+    });
 
 
 var app = builder.Build();

@@ -2,6 +2,8 @@ using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 using MusicOrchestraOrder.API.Middleware;
 using Npgsql;
+using OpenTelemetry.Resources;
+using OpenTelemetry.Trace;
 using OrderService.API.GrpcServices;
 using OrderService.BLL.Mappings;
 using OrderService.BLL.Services;
@@ -78,6 +80,22 @@ builder.Services.AddStackExchangeRedisCache(options =>
     options.Configuration = builder.Configuration.GetConnectionString("redis");
 });
 builder.Services.AddScoped<OrderGrpcService>();
+
+builder.Services.AddOpenTelemetry()
+    .WithTracing(tracerProviderBuilder =>
+    {
+        tracerProviderBuilder
+            .SetResourceBuilder(ResourceBuilder.CreateDefault().AddService("OrdersService"))
+            .AddAspNetCoreInstrumentation()
+            .AddHttpClientInstrumentation(options =>
+            {
+                options.EnrichWithHttpWebRequest = (activity, request) =>
+                {
+                    activity.SetTag("grpc.method", request.RequestUri?.AbsolutePath);
+                };
+            })
+            .AddConsoleExporter();
+    });
 
 
 // CORS

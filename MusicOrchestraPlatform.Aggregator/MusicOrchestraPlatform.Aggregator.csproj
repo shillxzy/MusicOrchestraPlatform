@@ -9,6 +9,11 @@
   <ItemGroup>
 	  <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
 	  <PackageReference Include="Aspire.StackExchange.Redis" Version="9.5.2" />
+	  <PackageReference Include="OpenTelemetry" Version="1.14.0" />
+	  <PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.14.0" />
+	  <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.14.0" />
+	  <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.14.0" />
+	  <PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.14.0" />
 	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
 	  <PackageReference Include="Grpc.Net.Client" Version="2.71.0" />
 	  <PackageReference Include="Grpc.Net.ClientFactory" Version="2.71.0" />

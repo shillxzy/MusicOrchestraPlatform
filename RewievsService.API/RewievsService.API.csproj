@@ -16,6 +16,11 @@
 	<PackageReference Include="Grpc.AspNetCore" Version="2.71.0" />
 	  <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="10.0.0" />
 	  <PackageReference Include="Grpc.Tools" Version="2.76.0" PrivateAssets="All" />
+	  <PackageReference Include="OpenTelemetry" Version="1.14.0" />
+	  <PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.14.0" />
+	  <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.14.0" />
+	  <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.14.0" />
+	  <PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.14.0" />
   </ItemGroup>
 
   <ItemGroup>

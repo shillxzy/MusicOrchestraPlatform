@@ -1034,6 +1034,22 @@
           }
         }
       },
+      "OpenTelemetry.Exporter.Console/1.14.0": {
+        "type": "package",
+        "dependencies": {
+          "OpenTelemetry": "1.14.0"
+        },
+        "compile": {
+          "lib/net10.0/OpenTelemetry.Exporter.Console.dll": {
+            "related": ".dll.sigstore.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/OpenTelemetry.Exporter.Console.dll": {
+            "related": ".dll.sigstore.json;.xml"
+          }
+        }
+      },
       "OpenTelemetry.Exporter.OpenTelemetryProtocol/1.14.0": {
         "type": "package",
         "dependencies": {
@@ -1555,6 +1571,11 @@
           "Grpc.AspNetCore": "2.71.0",
           "Microsoft.Extensions.Caching.StackExchangeRedis": "10.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
+          "OpenTelemetry": "1.14.0",
+          "OpenTelemetry.Exporter.Console": "1.14.0",
+          "OpenTelemetry.Extensions.Hosting": "1.14.0",
+          "OpenTelemetry.Instrumentation.AspNetCore": "1.14.0",
+          "OpenTelemetry.Instrumentation.Http": "1.14.0",
           "Serilog": "4.3.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
@@ -1638,6 +1659,11 @@
         "dependencies": {
           "Grpc.AspNetCore": "2.71.0",
           "Microsoft.Extensions.Caching.StackExchangeRedis": "10.0.0",
+          "OpenTelemetry": "1.14.0",
+          "OpenTelemetry.Exporter.Console": "1.14.0",
+          "OpenTelemetry.Extensions.Hosting": "1.14.0",
+          "OpenTelemetry.Instrumentation.AspNetCore": "1.14.0",
+          "OpenTelemetry.Instrumentation.Http": "1.14.0",
           "OrderService.BLL": "1.0.0",
           "OrderService.DAL": "1.0.0",
           "OrderService.Domain": "1.0.0",
@@ -1702,6 +1728,11 @@
           "MediatR": "13.1.0",
           "Microsoft.Extensions.Caching.StackExchangeRedis": "10.0.0",
           "MongoDB.Driver": "3.5.0",
+          "OpenTelemetry": "1.14.0",
+          "OpenTelemetry.Exporter.Console": "1.14.0",
+          "OpenTelemetry.Extensions.Hosting": "1.14.0",
+          "OpenTelemetry.Instrumentation.AspNetCore": "1.14.0",
+          "OpenTelemetry.Instrumentation.Http": "1.14.0",
           "RewievsService.Application": "1.0.0",
           "RewievsService.Domain": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
@@ -3931,6 +3962,36 @@
         "opentelemetry.api.providerbuilderextensions.nuspec"
       ]
     },
+    "OpenTelemetry.Exporter.Console/1.14.0": {
+      "sha512": "u0ekKB603NBrll76bK/wkLTnD/bl+5QMrXZKOA6oW+H383E2z5gfaWSrwof94URuvTFrtWRQcLKH+hhPykfM2w==",
+      "type": "package",
+      "path": "opentelemetry.exporter.console/1.14.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net10.0/OpenTelemetry.Exporter.Console.dll",
+        "lib/net10.0/OpenTelemetry.Exporter.Console.dll.sigstore.json",
+        "lib/net10.0/OpenTelemetry.Exporter.Console.xml",
+        "lib/net462/OpenTelemetry.Exporter.Console.dll",
+        "lib/net462/OpenTelemetry.Exporter.Console.dll.sigstore.json",
+        "lib/net462/OpenTelemetry.Exporter.Console.xml",
+        "lib/net8.0/OpenTelemetry.Exporter.Console.dll",
+        "lib/net8.0/OpenTelemetry.Exporter.Console.dll.sigstore.json",
+        "lib/net8.0/OpenTelemetry.Exporter.Console.xml",
+        "lib/net9.0/OpenTelemetry.Exporter.Console.dll",
+        "lib/net9.0/OpenTelemetry.Exporter.Console.dll.sigstore.json",
+        "lib/net9.0/OpenTelemetry.Exporter.Console.xml",
+        "lib/netstandard2.0/OpenTelemetry.Exporter.Console.dll",
+        "lib/netstandard2.0/OpenTelemetry.Exporter.Console.dll.sigstore.json",
+        "lib/netstandard2.0/OpenTelemetry.Exporter.Console.xml",
+        "opentelemetry-icon-color.png",
+        "opentelemetry.exporter.console.1.14.0.nupkg.sha512",
+        "opentelemetry.exporter.console.nuspec"
+      ]
+    },
     "OpenTelemetry.Exporter.OpenTelemetryProtocol/1.14.0": {
       "sha512": "7ELExeje+T/KOywHuHwZBGQNtYlepUaYRFXWgoEaT1iKpFJVwOlE1Y2+uqHI2QQmah0Ue+XgRmDy924vWHfJ6Q==",
       "type": "package",
@@ -4792,6 +4853,11 @@
       "Grpc.Tools >= 2.71.0",
       "Microsoft.AspNetCore.OpenApi >= 10.0.0",
       "MusicOrchestraPlatform.ServiceDefaults >= 1.0.0",
+      "OpenTelemetry >= 1.14.0",
+      "OpenTelemetry.Exporter.Console >= 1.14.0",
+      "OpenTelemetry.Extensions.Hosting >= 1.14.0",
+      "OpenTelemetry.Instrumentation.AspNetCore >= 1.14.0",
+      "OpenTelemetry.Instrumentation.Http >= 1.14.0",
       "OrderService.API >= 1.0.0",
       "RewievsService.API >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
@@ -4879,6 +4945,26 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[10.0.0, )"
+          },
+          "OpenTelemetry": {
+            "target": "Package",
+            "version": "[1.14.0, )"
+          },
+          "OpenTelemetry.Exporter.Console": {
+            "target": "Package",
+            "version": "[1.14.0, )"
+          },
+          "OpenTelemetry.Extensions.Hosting": {
+            "target": "Package",
+            "version": "[1.14.0, )"
+          },
+          "OpenTelemetry.Instrumentation.AspNetCore": {
+            "target": "Package",
+            "version": "[1.14.0, )"
+          },
+          "OpenTelemetry.Instrumentation.Http": {
+            "target": "Package",
+            "version": "[1.14.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

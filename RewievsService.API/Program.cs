@@ -1,6 +1,8 @@
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.Options;
+using OpenTelemetry.Resources;
+using OpenTelemetry.Trace;
 using RewievsService.API.GrpcServices;
 using RewievsService.Application.Behaviors;
 using RewievsService.Application.Services;
@@ -64,6 +66,23 @@ builder.Services.AddScoped<ReviewsGrpcService>();
 var app = builder.Build();
 
 app.MapGrpcService<ReviewsGrpcService>();
+
+builder.Services.AddOpenTelemetry()
+    .WithTracing(tracerProviderBuilder =>
+    {
+        tracerProviderBuilder
+            .SetResourceBuilder(ResourceBuilder.CreateDefault().AddService("ReviewsService"))
+            .AddAspNetCoreInstrumentation()
+            .AddHttpClientInstrumentation(options =>
+            {
+                options.EnrichWithHttpWebRequest = (activity, request) =>
+                {
+                    activity.SetTag("grpc.method", request.RequestUri?.AbsolutePath);
+                };
+            })
+            .AddConsoleExporter();
+    });
+
 
 // ----------------- Seed Mongo -----------------
 using (var scope = app.Services.CreateScope())
