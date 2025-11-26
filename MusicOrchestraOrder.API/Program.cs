@@ -1,15 +1,16 @@
+using AutoMapper;
+using Microsoft.Extensions.DependencyInjection;
 using MusicOrchestraOrder.API.Middleware;
+using Npgsql;
+using OrderService.API.GrpcServices;
 using OrderService.BLL.Mappings;
 using OrderService.BLL.Services;
 using OrderService.BLL.Services.Interfaces;
+using OrderService.DAL.Infrastructure;
 using OrderService.DAL.Repositories;
 using OrderService.DAL.Repositories.Interfaces;
 using OrderService.DAL.UOW;
-using OrderService.DAL.Infrastructure;
-using Npgsql;
 using System.Data;
-using Microsoft.Extensions.DependencyInjection;
-using AutoMapper;
 using BllOrderService = OrderService.BLL.Services.OrderService;
 
 
@@ -67,10 +68,17 @@ builder.Services.AddScoped<IOrderService, BllOrderService>();
 builder.Services.AddScoped<IOrderItemService, OrderItemService>();
 
 // Memory
+builder.Services.AddGrpc();
 builder.Services.AddMemoryCache(options =>
 {
     options.SizeLimit = 1024;
 });
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString("redis");
+});
+builder.Services.AddScoped<OrderGrpcService>();
+
 
 // CORS
 builder.Services.AddCors(options =>
@@ -84,6 +92,8 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
+
+app.MapGrpcService<OrderGrpcService>();
 
 // Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())

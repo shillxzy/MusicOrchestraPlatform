@@ -1,8 +1,13 @@
 using MusicOrchestraPlatform.Aggregator.Clients;
 using MusicOrchestraPlatform.Aggregator.Clients.Interfaces;
 using MusicOrchestraPlatform.ServiceDefaults;
+using OrderService.Grpc;     
+using CatalogService.Grpc;    
+using ReviewsService.Grpc;   
+
 
 var builder = WebApplication.CreateBuilder(args);
+
 
 
 builder.AddServiceDefaults();
@@ -25,6 +30,23 @@ builder.Services.AddHttpClient<IReviewsClient, ReviewsClient>(client =>
 {
     client.BaseAddress = new Uri("http://reviews-service");
 });
+
+
+builder.Services.AddGrpcClient<OrderGrpc.OrderGrpcClient>(o =>
+{
+    o.Address = new Uri("https://orders-service:5001");
+});
+
+builder.Services.AddGrpcClient<CatalogGrpc.CatalogGrpcClient>(o =>
+{
+    o.Address = new Uri("https://catalog-service:5001");
+});
+
+builder.Services.AddGrpcClient<ReviewsGrpc.ReviewsGrpcClient>(o =>
+{
+    o.Address = new Uri("https://reviews-service:5001");
+});
+
 
 
 builder.Services.AddControllers();

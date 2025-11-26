@@ -1,17 +1,19 @@
+using AutoMapper;
+using CatalogService.API.GrpcServices;
 using CatalogService.API.Middlewares;
+using CatalogService.BLL.MappingProfiles;
 using CatalogService.BLL.Services;
 using CatalogService.BLL.Services.Interfaces;
-using CatalogService.BLL.MappingProfiles;
 using CatalogService.BLL.Validators;
 using CatalogService.DAL.Data;
 using CatalogService.DAL.Repositories;
 using CatalogService.DAL.Repositories.Interfaces;
 using CatalogService.DAL.UOW;
+using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
-using AutoMapper;
-using FluentValidation;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
+
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -52,13 +54,23 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddGrpc();
 builder.Services.AddMemoryCache(options =>
 {
     options.SizeLimit = 1024; 
 });
 
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString("redis");
+});
+
+builder.Services.AddScoped<CatalogGrpcService>();
+
 
 var app = builder.Build();
+
+app.MapGrpcService<CatalogGrpcService>();
 
 // ----------------- Middleware -----------------
 app.UseMiddleware<GlobalExceptionHandlingMiddleware>();

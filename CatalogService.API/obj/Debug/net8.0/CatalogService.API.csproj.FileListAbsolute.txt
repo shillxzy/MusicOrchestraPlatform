@@ -314,3 +314,13 @@ C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API\obj\Deb
 C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API\obj\Debug\net8.0\CatalogService.API.pdb
 C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API\obj\Debug\net8.0\CatalogService.API.genruntimeconfig.cache
 C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API\obj\Debug\net8.0\ref\CatalogService.API.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API\bin\Debug\net8.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API\bin\Debug\net8.0\Grpc.Net.Common.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API\bin\Debug\net8.0\StackExchange.Redis.dll

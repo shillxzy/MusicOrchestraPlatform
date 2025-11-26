@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MusicOrchestraPlatform.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21ffd5a38e63e31b1b71c81a68730a9e20e91f14")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d619387e8abb158d71c5098ece254776e83a0d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MusicOrchestraPlatform.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MusicOrchestraPlatform.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

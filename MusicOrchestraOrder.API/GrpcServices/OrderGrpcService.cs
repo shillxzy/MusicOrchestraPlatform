@@ -1,77 +1,92 @@
 ﻿using Grpc.Core;
+using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Caching.Memory;
 using OrderService.Grpc;
+using System.Text.Json;
 
 namespace OrderService.API.GrpcServices
 {
     public class OrderGrpcService : OrderGrpc.OrderGrpcBase
     {
         private readonly IMemoryCache _memoryCache;
+        private readonly IDistributedCache _redisCache;
         private readonly ILogger<OrderGrpcService> _logger;
 
-        public OrderGrpcService(IMemoryCache memoryCache, ILogger<OrderGrpcService> logger)
+        public OrderGrpcService(IMemoryCache memoryCache, IDistributedCache redisCache, ILogger<OrderGrpcService> logger)
         {
             _memoryCache = memoryCache;
+            _redisCache = redisCache;
             _logger = logger;
         }
 
-        public override Task<OrderResponse> GetOrder(OrderRequest request, ServerCallContext context)
+        public override async Task<OrderResponse> GetOrder(OrderRequest request, ServerCallContext context)
         {
             string key = $"Order_{request.Id}";
 
-            if (!_memoryCache.TryGetValue(key, out OrderResponse cached))
+            if (!_memoryCache.TryGetValue(key, out OrderResponse order))
             {
-                _logger.LogInformation("Cache MISS for {Key}", key);
+                _logger.LogInformation("L1 Cache MISS for {Key}", key);
 
-                cached = new OrderResponse
+                var redisData = await _redisCache.GetStringAsync(key);
+                if (!string.IsNullOrEmpty(redisData))
                 {
-                    Id = request.Id,
-                    CatalogItemId = request.Id * 10,
-                    Quantity = 1 + request.Id % 5,
-                    Status = "Pending"
-                };
+                    order = JsonSerializer.Deserialize<OrderResponse>(redisData);
+                    _logger.LogInformation("L2 Cache HIT for {Key}", key);
 
-                var options = new MemoryCacheEntryOptions()
-                    .SetSlidingExpiration(TimeSpan.FromMinutes(5))
-                    .SetAbsoluteExpiration(TimeSpan.FromHours(1))
-                    .SetSize(1);
+                    _memoryCache.Set(key, order, new MemoryCacheEntryOptions()
+                        .SetSlidingExpiration(TimeSpan.FromMinutes(5))
+                        .SetAbsoluteExpiration(TimeSpan.FromMinutes(10))
+                        .SetSize(1));
+                }
+                else
+                {
+                    _logger.LogInformation("L2 Cache MISS for {Key}", key);
 
-                _memoryCache.Set(key, cached, options);
+                    order = new OrderResponse
+                    {
+                        Id = request.Id,
+                        CatalogItemId = request.Id * 10,
+                        Quantity = 1 + request.Id % 5,
+                        Status = "Pending"
+                    };
+
+                    var serialized = JsonSerializer.Serialize(order);
+                    await _redisCache.SetStringAsync(key, serialized, new DistributedCacheEntryOptions
+                    {
+                        AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(30)
+                    });
+
+                    _memoryCache.Set(key, order, new MemoryCacheEntryOptions()
+                        .SetSlidingExpiration(TimeSpan.FromMinutes(5))
+                        .SetAbsoluteExpiration(TimeSpan.FromMinutes(10))
+                        .SetSize(1));
+                }
             }
             else
             {
-                _logger.LogInformation("Cache HIT for {Key}", key);
+                _logger.LogInformation("L1 Cache HIT for {Key}", key);
             }
 
-            return Task.FromResult(cached);
+            return order;
         }
 
-
-        public Task<OrderResponse> AddOrUpdateOrder(OrderResponse order)
+        public async Task<OrderResponse> AddOrUpdateOrder(OrderResponse order)
         {
-            _logger.LogInformation("Write operation for Order_{Id}", order.Id);
-
             string key = $"Order_{order.Id}";
             _memoryCache.Remove(key);
-
+            await _redisCache.RemoveAsync(key);
             _logger.LogInformation("Cache invalidated: {Key}", key);
-
-            return Task.FromResult(order);
+            return order;
         }
 
-        public Task DeleteOrder(int id)
+        public async Task DeleteOrder(int id)
         {
-            _logger.LogInformation("Delete operation for Order_{Id}", id);
-
             string key = $"Order_{id}";
             _memoryCache.Remove(key);
-
+            await _redisCache.RemoveAsync(key);
             _logger.LogInformation("Cache invalidated: {Key}", key);
-
-            return Task.CompletedTask;
         }
     }
-
 
 
 }

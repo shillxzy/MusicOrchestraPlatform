@@ -1,4 +1,7 @@
+using FluentValidation;
 using MediatR;
+using Microsoft.Extensions.Options;
+using RewievsService.API.GrpcServices;
 using RewievsService.Application.Behaviors;
 using RewievsService.Application.Services;
 using RewievsService.Domain.Interfaces.Repositories;
@@ -6,8 +9,6 @@ using RewievsService.Domain.Interfaces.Services;
 using RewievsService.Infrastructure.Configuration;
 using RewievsService.Infrastructure.Data;
 using RewievsService.Infrastructure.Repositories;
-using FluentValidation;
-using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -48,12 +49,21 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Memory
+builder.Services.AddGrpc();
 builder.Services.AddMemoryCache(options =>
 {
     options.SizeLimit = 1024;
 });
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString("redis");
+});
+
+builder.Services.AddScoped<ReviewsGrpcService>();
 
 var app = builder.Build();
+
+app.MapGrpcService<ReviewsGrpcService>();
 
 // ----------------- Seed Mongo -----------------
 using (var scope = app.Services.CreateScope())

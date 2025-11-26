@@ -12,15 +12,22 @@
 	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
 	  <PackageReference Include="Grpc.Net.Client" Version="2.71.0" />
 	  <PackageReference Include="Grpc.Net.ClientFactory" Version="2.71.0" />
+	  <PackageReference Include="Grpc.Tools" Version="2.71.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CatalogService.API\CatalogService.API.csproj" />
+    <ProjectReference Include="..\MusicOrchestraOrder.API\OrderService.API.csproj" />
     <ProjectReference Include="..\MusicOrchestraPlatform.ServiceDefaults\MusicOrchestraPlatform.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\RewievsService.API\RewievsService.API.csproj" />
   </ItemGroup>
 
 	<ItemGroup>
-		<Protobuf Include="Protos\*.proto" GrpcServices="Client" />
+		<Protobuf Include="..\MusicOrchestraOrder.API\Protos\order.proto" GrpcServices="Client" Link="Protos\Order\order.proto" />
+		<Protobuf Include="..\CatalogService.API\Protos\catalog.proto" GrpcServices="Client" Link="Protos\Catalog\catalog.proto" />
+		<Protobuf Include="..\RewievsService.API\Protos\reviews.proto" GrpcServices="Client" Link="Protos\Reviews\reviews.proto" />
 	</ItemGroup>
+
 
 
 </Project>
