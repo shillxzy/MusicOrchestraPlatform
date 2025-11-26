@@ -11,10 +11,15 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
     <PackageReference Include="Serilog" Version="4.3.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+	<PackageReference Include="Grpc.AspNetCore" Version="2.71.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CatalogService.BLL\CatalogService.BLL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <Protobuf Include="Protos\*.proto" GrpcServices="Server" />
   </ItemGroup>
 
 </Project>
