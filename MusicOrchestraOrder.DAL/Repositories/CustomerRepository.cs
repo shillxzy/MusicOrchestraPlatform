@@ -11,14 +11,16 @@ using Npgsql;
 
 namespace OrderService.DAL.Repositories
 {
-    public class CustomerRepository : ICustomerRepository
+    public class CustomerRepository : GenericRepository<Customer>, ICustomerRepository
     {
         private readonly IConnectFactory _connectionFactory;
 
         public CustomerRepository(IConnectFactory connectionFactory)
+      : base(connectionFactory)
         {
             _connectionFactory = connectionFactory;
         }
+
 
         public async Task<Customer?> GetByIdAsync(int id)
         {

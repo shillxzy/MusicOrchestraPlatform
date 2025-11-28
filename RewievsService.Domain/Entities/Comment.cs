@@ -20,6 +20,10 @@ namespace RewievsService.Domain.Entities
         [BsonElement("parentCommentId")]
         public string? ParentCommentId { get; private set; }
 
+        [BsonIgnore]
+        public List<Comment>? Replies { get; set; }
+
+
         private Comment() { }
 
         public Comment(string authorId, CommentText text, string? parentCommentId = null, string? createdBy = null)

@@ -2,10 +2,8 @@
 using CatalogService.DAL.Repositories.Interfaces;
 using CatalogService.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CatalogService.DAL.Repositories
@@ -22,12 +20,14 @@ namespace CatalogService.DAL.Repositories
         public async Task<IEnumerable<Composition>> GetAllAsync() =>
             await _context.Compositions
                 .Include(c => c.ConcertPrograms)
+                .OrderBy(c => c.Id)
                 .ToListAsync();
 
         public async Task<Composition?> GetByIdAsync(int id) =>
             await _context.Compositions
                 .Include(c => c.ConcertPrograms)
-                .FirstOrDefaultAsync(c => c.Id == id);
+                .Where(c => c.Id == id)
+                .FirstOrDefaultAsync();
 
         public async Task AddAsync(Composition entity)
         {
@@ -43,7 +43,10 @@ namespace CatalogService.DAL.Repositories
 
         public async Task DeleteAsync(int id)
         {
-            var entity = await _context.Compositions.FindAsync(id);
+            var entity = await _context.Compositions
+                .Where(c => c.Id == id)
+                .FirstOrDefaultAsync();
+
             if (entity != null)
             {
                 _context.Compositions.Remove(entity);

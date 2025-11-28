@@ -15,6 +15,7 @@ using Microsoft.EntityFrameworkCore;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
 using OpenTelemetry.Trace;
 using OpenTelemetry.Resources;
+using Serilog;
 
 
 
@@ -38,6 +39,15 @@ builder.Services.AddScoped<IPerformerService, PerformerService>();
 builder.Services.AddScoped<ICompositionService, CompositionService>();
 builder.Services.AddScoped<IConcertProgramService, ConcertProgramService>();
 builder.Services.AddScoped<IInstrumentImageService, InstrumentImageService>();
+
+// ----------------- Serilog Logging -----------------
+builder.Host.UseSerilog((context, services, configuration) => configuration
+    .ReadFrom.Configuration(context.Configuration)
+    .ReadFrom.Services(services)
+    .Enrich.FromLogContext()
+    .WriteTo.Console()
+    .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day));
+
 
 // ----------------- AutoMapper -----------------
 builder.Services.AddAutoMapper(cfg =>

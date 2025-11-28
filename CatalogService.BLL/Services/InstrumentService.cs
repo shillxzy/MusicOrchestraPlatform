@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using CatalogService.BLL.DTOs.Instrument;
 using CatalogService.BLL.Services.Interfaces;
+using CatalogService.DAL.Specifications;
 using CatalogService.DAL.UOW;
 
 
@@ -58,5 +59,6 @@ namespace CatalogService.BLL.Services
             await _uow.SaveChangesAsync();
             return true;
         }
+
     }
 }

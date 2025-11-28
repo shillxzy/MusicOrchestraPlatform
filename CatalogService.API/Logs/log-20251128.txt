@@ -1,0 +1,45 @@
+2025-11-28 19:01:30.124 +02:00 [INF] Executed DbCommand (141ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-11-28 19:01:31.496 +02:00 [INF] Executed DbCommand (135ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-11-28 19:01:31.506 +02:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-11-28 19:01:31.627 +02:00 [INF] Executed DbCommand (119ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-11-28 19:01:31.753 +02:00 [INF] Executed DbCommand (122ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-11-28 19:01:31.761 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-11-28 19:01:31.964 +02:00 [INF] Now listening on: http://localhost:5231
+2025-11-28 19:01:32.216 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger - null null
+2025-11-28 19:01:32.258 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-28 19:01:32.263 +02:00 [INF] Hosting environment: Development
+2025-11-28 19:01:32.264 +02:00 [INF] Content root path: C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API
+2025-11-28 19:01:32.388 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-11-28 19:01:32.408 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger - 301 null null 194.8845ms
+2025-11-28 19:01:32.416 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/index.html - null null
+2025-11-28 19:01:32.489 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/index.html - 200 null text/html;charset=utf-8 71.9993ms
+2025-11-28 19:01:32.500 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/swagger-ui.css - null null
+2025-11-28 19:01:32.503 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/swagger-ui-bundle.js - null null
+2025-11-28 19:01:32.503 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/swagger-ui-standalone-preset.js - null null
+2025-11-28 19:01:32.543 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-11-28 19:01:32.543 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-11-28 19:01:32.553 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/swagger-ui.css - 200 152034 text/css 52.5122ms
+2025-11-28 19:01:32.553 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 49.6953ms
+2025-11-28 19:01:32.554 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-11-28 19:01:32.576 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-28 19:01:32.582 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 79.4256ms
+2025-11-28 19:01:32.588 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 11.3246ms
+2025-11-28 19:01:32.593 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_vs/browserLink - null null
+2025-11-28 19:01:32.625 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.0625ms
+2025-11-28 19:01:33.319 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - null null
+2025-11-28 19:01:33.352 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.0825ms
+2025-11-28 19:01:33.364 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/favicon-32x32.png - null null
+2025-11-28 19:01:33.368 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-11-28 19:01:33.372 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/favicon-32x32.png - 200 628 image/png 8.064ms

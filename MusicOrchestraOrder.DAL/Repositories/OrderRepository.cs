@@ -11,11 +11,11 @@ using Npgsql;
 
 namespace OrderService.DAL.Repositories
 {
-    public class OrderRepository : IOrderRepository
+    public class OrderRepository : GenericRepository<Order>, IOrderRepository
     {
         private readonly IConnectFactory _connectionFactory;
 
-        public OrderRepository(IConnectFactory connectionFactory)
+        public OrderRepository(IConnectFactory connectionFactory) : base(connectionFactory)
         {
             _connectionFactory = connectionFactory;
         }

@@ -2,10 +2,8 @@
 using CatalogService.DAL.Repositories.Interfaces;
 using CatalogService.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CatalogService.DAL.Repositories
@@ -22,12 +20,14 @@ namespace CatalogService.DAL.Repositories
         public async Task<IEnumerable<Performer>> GetAllAsync() =>
             await _context.Performers
                 .Include(p => p.Instrument)
+                .OrderBy(p => p.Id)
                 .ToListAsync();
 
         public async Task<Performer?> GetByIdAsync(int id) =>
             await _context.Performers
                 .Include(p => p.Instrument)
-                .FirstOrDefaultAsync(p => p.Id == id);
+                .Where(p => p.Id == id)
+                .FirstOrDefaultAsync();
 
         public async Task AddAsync(Performer entity)
         {
@@ -43,7 +43,10 @@ namespace CatalogService.DAL.Repositories
 
         public async Task DeleteAsync(int id)
         {
-            var entity = await _context.Performers.FindAsync(id);
+            var entity = await _context.Performers
+                .Where(p => p.Id == id)
+                .FirstOrDefaultAsync();
+
             if (entity != null)
             {
                 _context.Performers.Remove(entity);

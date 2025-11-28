@@ -63,10 +63,6 @@ builder.Services.AddStackExchangeRedisCache(options =>
 
 builder.Services.AddScoped<ReviewsGrpcService>();
 
-var app = builder.Build();
-
-app.MapGrpcService<ReviewsGrpcService>();
-
 builder.Services.AddOpenTelemetry()
     .WithTracing(tracerProviderBuilder =>
     {
@@ -82,6 +78,10 @@ builder.Services.AddOpenTelemetry()
             })
             .AddConsoleExporter();
     });
+
+var app = builder.Build();
+
+app.MapGrpcService<ReviewsGrpcService>();
 
 
 // ----------------- Seed Mongo -----------------

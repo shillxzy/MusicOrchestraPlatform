@@ -27,5 +27,25 @@ namespace RewievsService.Infrastructure.Repositories
             return await _collection.Find(c => c.CreatedBy == userId)
                                     .ToListAsync(cancellationToken);
         }
+
+        public async Task<IReadOnlyList<Comment>> GetCommentsWithRepliesAsync(
+    string parentId,
+    CancellationToken cancellationToken = default)
+        {
+            var pipeline = _collection.Aggregate()
+                .Match(c => c.ParentCommentId == parentId)
+                .Lookup<Comment, Comment, Comment>(
+                    foreignCollection: _collection,  // дивимось на ту ж колекцію
+                    localField: c => c.Id,
+                    foreignField: r => r.ParentCommentId,
+                    @as: c => c.Replies // компілятор буде вимагати, щоб у Comment існувало поле Replies
+                );
+
+            return await pipeline.ToListAsync(cancellationToken);
+        }
+
+
+
+
     }
 }

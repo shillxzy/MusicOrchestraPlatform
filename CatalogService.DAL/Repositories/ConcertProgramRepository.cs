@@ -2,10 +2,8 @@
 using CatalogService.DAL.Repositories.Interfaces;
 using CatalogService.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CatalogService.DAL.Repositories
@@ -22,12 +20,14 @@ namespace CatalogService.DAL.Repositories
         public async Task<IEnumerable<ConcertProgram>> GetAllAsync() =>
             await _context.ConcertPrograms
                 .Include(cp => cp.Composition)
+                .OrderBy(cp => cp.Id) // або за якимось іншим полем
                 .ToListAsync();
 
         public async Task<ConcertProgram?> GetByIdAsync(int id) =>
             await _context.ConcertPrograms
                 .Include(cp => cp.Composition)
-                .FirstOrDefaultAsync(cp => cp.Id == id);
+                .Where(cp => cp.Id == id)
+                .FirstOrDefaultAsync();
 
         public async Task AddAsync(ConcertProgram entity)
         {
@@ -37,13 +37,18 @@ namespace CatalogService.DAL.Repositories
 
         public async Task UpdateAsync(ConcertProgram entity)
         {
+            // Логіка через LINQ не потрібна, Update працює на tracked entity
             _context.ConcertPrograms.Update(entity);
             await _context.SaveChangesAsync();
         }
 
         public async Task DeleteAsync(int id)
         {
-            var entity = await _context.ConcertPrograms.FindAsync(id);
+            // Використовуємо LINQ замість FindAsync
+            var entity = await _context.ConcertPrograms
+                .Where(cp => cp.Id == id)
+                .FirstOrDefaultAsync();
+
             if (entity != null)
             {
                 _context.ConcertPrograms.Remove(entity);

@@ -2,10 +2,8 @@
 using CatalogService.DAL.Repositories.Interfaces;
 using CatalogService.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CatalogService.DAL.Repositories
@@ -22,12 +20,14 @@ namespace CatalogService.DAL.Repositories
         public async Task<IEnumerable<InstrumentImage>> GetAllAsync() =>
             await _context.InstrumentImages
                 .Include(img => img.Instrument)
+                .OrderBy(img => img.Id)
                 .ToListAsync();
 
         public async Task<InstrumentImage?> GetByIdAsync(int id) =>
             await _context.InstrumentImages
                 .Include(img => img.Instrument)
-                .FirstOrDefaultAsync(img => img.Id == id);
+                .Where(img => img.Id == id)
+                .FirstOrDefaultAsync();
 
         public async Task AddAsync(InstrumentImage entity)
         {
@@ -43,7 +43,10 @@ namespace CatalogService.DAL.Repositories
 
         public async Task DeleteAsync(int id)
         {
-            var entity = await _context.InstrumentImages.FindAsync(id);
+            var entity = await _context.InstrumentImages
+                .Where(img => img.Id == id)
+                .FirstOrDefaultAsync();
+
             if (entity != null)
             {
                 _context.InstrumentImages.Remove(entity);
