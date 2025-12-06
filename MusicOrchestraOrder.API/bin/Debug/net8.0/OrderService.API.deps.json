@@ -37,6 +37,14 @@
           }
         }
       },
+      "Dapper/2.1.66": {
+        "runtime": {
+          "lib/net8.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.66.48463"
+          }
+        }
+      },
       "Google.Protobuf/3.30.2": {
         "runtime": {
           "lib/net5.0/Google.Protobuf.dll": {
@@ -400,6 +408,7 @@
       },
       "OrderService.DAL/1.0.0": {
         "dependencies": {
+          "Dapper": "2.1.66",
           "Npgsql": "9.0.4",
           "OrderService.Domain": "1.0.0"
         },
@@ -432,6 +441,13 @@
       "sha512": "sha512-uJXRC0ysO+i3fuW1onh0cUmaLbEwfMWwAZ5nw2eKhYccHwDgRhSC4Qj3rNdBy4vdhnC3r4NinhhldANKNWpH1Q==",
       "path": "automapper/15.1.0",
       "hashPath": "automapper.15.1.0.nupkg.sha512"
+    },
+    "Dapper/2.1.66": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
+      "path": "dapper/2.1.66",
+      "hashPath": "dapper.2.1.66.nupkg.sha512"
     },
     "Google.Protobuf/3.30.2": {
       "type": "package",

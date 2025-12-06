@@ -39,8 +39,9 @@ var reviewsService = builder.AddProject("reviews-service",
     @"..\..\..\..\source\repos\MusicOrchestraPlatform\RewievsService.API\RewievsService.API.csproj")
     .WithReference(reviewsDb)
     .WithReference(redis)
-    .WithEnvironment("MongoDbSettings__ConnectionString", reviewsDb.Resource.ConnectionStringExpression)
+    .WithEnvironment("MongoDbSettings__ConnectionString", "mongodb://localhost:27017")
     .WithEnvironment("MongoDbSettings__DatabaseName", "music_orchestra_reviews");
+
 
 // --- Aggregator та Gateway ---
 var aggregator = builder.AddProject("aggregator",

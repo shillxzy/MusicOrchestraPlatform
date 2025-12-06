@@ -1,10 +1,13 @@
 ﻿using RewievsService.Domain.Common;
 using ReviewsService.Domain.Exceptions;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace RewievsService.Domain.ValueObjects
 {
+    [BsonIgnoreExtraElements]
     public class RatingValue : ValueObject
     {
+        [BsonElement("value")]
         public int Value { get; private set; }
 
         private RatingValue() { }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shillxzy\\Downloads\\ПРИКЛАД - OpenTelemetry-examples\\OpenTelemetry-examples\\MusicOrchestraPlatform.AppHost\\MusicOrchestraPlatform.AppHost.csproj": {}
+    "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraPlatform.AppHost\\MusicOrchestraPlatform.AppHost.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shillxzy\\Downloads\\ПРИКЛАД - OpenTelemetry-examples\\OpenTelemetry-examples\\MusicOrchestraPlatform.AppHost\\MusicOrchestraPlatform.AppHost.csproj": {
+    "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraPlatform.AppHost\\MusicOrchestraPlatform.AppHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shillxzy\\Downloads\\ПРИКЛАД - OpenTelemetry-examples\\OpenTelemetry-examples\\MusicOrchestraPlatform.AppHost\\MusicOrchestraPlatform.AppHost.csproj",
+        "projectUniqueName": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraPlatform.AppHost\\MusicOrchestraPlatform.AppHost.csproj",
         "projectName": "MusicOrchestraPlatform.AppHost",
-        "projectPath": "C:\\Users\\Shillxzy\\Downloads\\ПРИКЛАД - OpenTelemetry-examples\\OpenTelemetry-examples\\MusicOrchestraPlatform.AppHost\\MusicOrchestraPlatform.AppHost.csproj",
+        "projectPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraPlatform.AppHost\\MusicOrchestraPlatform.AppHost.csproj",
         "packagesPath": "C:\\Users\\Shillxzy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shillxzy\\Downloads\\ПРИКЛАД - OpenTelemetry-examples\\OpenTelemetry-examples\\MusicOrchestraPlatform.AppHost\\obj\\",
+        "outputPath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraPlatform.AppHost\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"

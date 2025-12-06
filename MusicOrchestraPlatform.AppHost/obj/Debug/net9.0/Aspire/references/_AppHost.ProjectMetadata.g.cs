@@ -17,5 +17,5 @@ public class MusicOrchestraPlatform_AppHost
     /// <summary>
     /// The path to the Aspire Host project.
     /// </summary>
-    public static string ProjectPath => """C:\Users\Shillxzy\Downloads\ПРИКЛАД - OpenTelemetry-examples\OpenTelemetry-examples\MusicOrchestraPlatform.AppHost""";
+    public static string ProjectPath => """C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraPlatform.AppHost""";
 }

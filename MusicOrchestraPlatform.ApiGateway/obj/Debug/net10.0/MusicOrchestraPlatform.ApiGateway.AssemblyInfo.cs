@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MusicOrchestraPlatform.ApiGateway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bae6639af986b582649067273d8b624935db02a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5cb4d6ccf74a4eccf38199c43229cfadd45d604")]
 [assembly: System.Reflection.AssemblyProductAttribute("MusicOrchestraPlatform.ApiGateway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MusicOrchestraPlatform.ApiGateway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

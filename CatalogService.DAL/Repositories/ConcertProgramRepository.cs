@@ -20,7 +20,7 @@ namespace CatalogService.DAL.Repositories
         public async Task<IEnumerable<ConcertProgram>> GetAllAsync() =>
             await _context.ConcertPrograms
                 .Include(cp => cp.Composition)
-                .OrderBy(cp => cp.Id) // або за якимось іншим полем
+                .OrderBy(cp => cp.Id) 
                 .ToListAsync();
 
         public async Task<ConcertProgram?> GetByIdAsync(int id) =>
@@ -37,14 +37,12 @@ namespace CatalogService.DAL.Repositories
 
         public async Task UpdateAsync(ConcertProgram entity)
         {
-            // Логіка через LINQ не потрібна, Update працює на tracked entity
             _context.ConcertPrograms.Update(entity);
             await _context.SaveChangesAsync();
         }
 
         public async Task DeleteAsync(int id)
         {
-            // Використовуємо LINQ замість FindAsync
             var entity = await _context.ConcertPrograms
                 .Where(cp => cp.Id == id)
                 .FirstOrDefaultAsync();

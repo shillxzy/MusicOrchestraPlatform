@@ -53,5 +53,21 @@ namespace CatalogService.DAL.Repositories
                 await _context.SaveChangesAsync();
             }
         }
+
+        public async Task<IEnumerable<object>> GetPerformersWithInstrumentsAsync()
+        {
+            var query = from p in _context.Performers
+                        join i in _context.Instruments
+                        on p.InstrumentId equals i.Id
+                        select new
+                        {
+                            PerformerName = p.Name,
+                            InstrumentName = i.Name,
+                            InstrumentType = i.Type
+                        };
+
+            return await query.ToListAsync();
+        }
+
     }
 }

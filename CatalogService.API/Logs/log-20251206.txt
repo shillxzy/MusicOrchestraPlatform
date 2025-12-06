@@ -1,0 +1,329 @@
+2025-12-06 19:02:03.145 +02:00 [INF] Executed DbCommand (197ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:02:07.013 +02:00 [INF] Executed DbCommand (542ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-06 19:02:07.025 +02:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-06 19:02:07.682 +02:00 [INF] Executed DbCommand (655ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-06 19:02:07.833 +02:00 [INF] Executed DbCommand (149ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:02:07.844 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-06 19:02:08.165 +02:00 [INF] Now listening on: https://localhost:50725
+2025-12-06 19:02:08.165 +02:00 [INF] Now listening on: http://localhost:50726
+2025-12-06 19:02:08.324 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-06 19:02:08.324 +02:00 [INF] Hosting environment: Development
+2025-12-06 19:02:08.324 +02:00 [INF] Content root path: C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API
+2025-12-06 19:26:45.058 +02:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:26:46.482 +02:00 [INF] Executed DbCommand (124ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-06 19:26:46.491 +02:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-06 19:26:46.709 +02:00 [INF] Executed DbCommand (217ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-06 19:26:46.832 +02:00 [INF] Executed DbCommand (123ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:26:46.838 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-06 19:26:47.068 +02:00 [INF] Now listening on: https://localhost:58729
+2025-12-06 19:26:47.068 +02:00 [INF] Now listening on: http://localhost:58730
+2025-12-06 19:26:47.149 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-06 19:26:47.150 +02:00 [INF] Hosting environment: Development
+2025-12-06 19:26:47.150 +02:00 [INF] Content root path: C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API
+2025-12-06 19:33:15.329 +02:00 [INF] Executed DbCommand (235ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:33:16.853 +02:00 [INF] Executed DbCommand (129ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-06 19:33:16.862 +02:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-06 19:33:16.983 +02:00 [INF] Executed DbCommand (120ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-06 19:33:17.104 +02:00 [INF] Executed DbCommand (120ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:33:17.108 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-06 19:33:17.339 +02:00 [INF] Now listening on: https://localhost:53896
+2025-12-06 19:33:17.339 +02:00 [INF] Now listening on: http://localhost:53897
+2025-12-06 19:33:17.419 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-06 19:33:17.420 +02:00 [INF] Hosting environment: Development
+2025-12-06 19:33:17.420 +02:00 [INF] Content root path: C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API
+2025-12-06 19:37:35.509 +02:00 [INF] Executed DbCommand (147ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:37:37.548 +02:00 [INF] Executed DbCommand (123ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-06 19:37:37.572 +02:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-06 19:37:37.690 +02:00 [INF] Executed DbCommand (118ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-06 19:37:37.810 +02:00 [INF] Executed DbCommand (119ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:37:37.831 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-06 19:37:38.312 +02:00 [INF] Now listening on: https://localhost:53737
+2025-12-06 19:37:38.313 +02:00 [INF] Now listening on: http://localhost:53738
+2025-12-06 19:37:38.633 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-06 19:37:38.634 +02:00 [INF] Hosting environment: Development
+2025-12-06 19:37:38.635 +02:00 [INF] Content root path: C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API
+2025-12-06 19:41:13.919 +02:00 [INF] Executed DbCommand (231ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:41:16.822 +02:00 [INF] Executed DbCommand (129ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-06 19:41:16.834 +02:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-06 19:41:17.075 +02:00 [INF] Executed DbCommand (240ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-06 19:41:17.198 +02:00 [INF] Executed DbCommand (123ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:41:17.203 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-06 19:41:17.451 +02:00 [INF] Now listening on: https://localhost:57962
+2025-12-06 19:41:17.451 +02:00 [INF] Now listening on: http://localhost:57969
+2025-12-06 19:41:17.550 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-06 19:41:17.551 +02:00 [INF] Hosting environment: Development
+2025-12-06 19:41:17.551 +02:00 [INF] Content root path: C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API
+2025-12-06 19:44:01.730 +02:00 [INF] Executed DbCommand (174ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:44:03.705 +02:00 [INF] Executed DbCommand (196ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-06 19:44:03.737 +02:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-06 19:44:03.861 +02:00 [INF] Executed DbCommand (124ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-06 19:44:03.982 +02:00 [INF] Executed DbCommand (119ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:44:03.990 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-06 19:44:04.273 +02:00 [INF] Now listening on: https://localhost:63703
+2025-12-06 19:44:04.273 +02:00 [INF] Now listening on: http://localhost:63704
+2025-12-06 19:44:04.486 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-06 19:44:04.487 +02:00 [INF] Hosting environment: Development
+2025-12-06 19:44:04.487 +02:00 [INF] Content root path: C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API
+2025-12-06 19:45:57.364 +02:00 [INF] Executed DbCommand (141ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:49:38.572 +02:00 [INF] Executed DbCommand (143ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:51:55.163 +02:00 [INF] Executed DbCommand (135,025ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-06 19:51:55.193 +02:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-06 19:51:55.348 +02:00 [INF] Executed DbCommand (153ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-06 19:51:55.466 +02:00 [INF] Executed DbCommand (117ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:51:55.473 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-06 19:51:55.965 +02:00 [INF] Now listening on: https://localhost:51159
+2025-12-06 19:51:55.967 +02:00 [INF] Now listening on: http://localhost:51160
+2025-12-06 19:51:56.197 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-06 19:51:56.197 +02:00 [INF] Hosting environment: Development
+2025-12-06 19:51:56.198 +02:00 [INF] Content root path: C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API
+2025-12-06 19:57:58.693 +02:00 [INF] Executed DbCommand (221ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:58:00.690 +02:00 [INF] Executed DbCommand (132ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-06 19:58:00.715 +02:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-06 19:58:00.948 +02:00 [INF] Executed DbCommand (232ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-06 19:58:01.064 +02:00 [INF] Executed DbCommand (115ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:58:01.073 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-06 19:58:01.475 +02:00 [INF] Now listening on: https://localhost:63387
+2025-12-06 19:58:01.476 +02:00 [INF] Now listening on: http://localhost:63390
+2025-12-06 19:58:01.645 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-06 19:58:01.647 +02:00 [INF] Hosting environment: Development
+2025-12-06 19:58:01.648 +02:00 [INF] Content root path: C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API
+2025-12-06 19:59:08.137 +02:00 [INF] Executed DbCommand (151ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:59:09.658 +02:00 [INF] Executed DbCommand (229ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-06 19:59:09.667 +02:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-06 19:59:09.781 +02:00 [INF] Executed DbCommand (113ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-06 19:59:09.899 +02:00 [INF] Executed DbCommand (118ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 19:59:09.905 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-06 19:59:10.191 +02:00 [INF] Now listening on: https://localhost:51194
+2025-12-06 19:59:10.191 +02:00 [INF] Now listening on: http://localhost:51197
+2025-12-06 19:59:10.295 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-06 19:59:10.296 +02:00 [INF] Hosting environment: Development
+2025-12-06 19:59:10.296 +02:00 [INF] Content root path: C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API
+2025-12-06 20:01:10.826 +02:00 [INF] Executed DbCommand (141ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 20:01:12.621 +02:00 [INF] Executed DbCommand (125ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-06 20:01:12.643 +02:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-06 20:01:12.866 +02:00 [INF] Executed DbCommand (221ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-06 20:01:12.982 +02:00 [INF] Executed DbCommand (116ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 20:01:12.994 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-06 20:01:13.837 +02:00 [INF] Now listening on: https://localhost:51364
+2025-12-06 20:01:13.837 +02:00 [INF] Now listening on: http://localhost:51365
+2025-12-06 20:01:13.970 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-06 20:01:13.970 +02:00 [INF] Hosting environment: Development
+2025-12-06 20:01:13.970 +02:00 [INF] Content root path: C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API
+2025-12-06 20:17:08.989 +02:00 [INF] Executed DbCommand (159ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 20:17:19.189 +02:00 [INF] Executed DbCommand (1,694ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-06 20:17:19.203 +02:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-06 20:17:19.381 +02:00 [INF] Executed DbCommand (178ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-06 20:17:19.552 +02:00 [INF] Executed DbCommand (170ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 20:17:19.559 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-06 20:17:20.225 +02:00 [INF] Now listening on: https://localhost:62777
+2025-12-06 20:17:20.225 +02:00 [INF] Now listening on: http://localhost:62779
+2025-12-06 20:17:20.333 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-06 20:17:20.333 +02:00 [INF] Hosting environment: Development
+2025-12-06 20:17:20.334 +02:00 [INF] Content root path: C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API
+2025-12-06 20:47:31.477 +02:00 [INF] Executed DbCommand (206ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 20:47:33.309 +02:00 [INF] Executed DbCommand (162ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-06 20:47:33.322 +02:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-06 20:47:33.477 +02:00 [INF] Executed DbCommand (154ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-06 20:47:33.628 +02:00 [INF] Executed DbCommand (150ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 20:47:33.634 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-06 20:47:33.986 +02:00 [INF] Now listening on: https://localhost:53219
+2025-12-06 20:47:33.987 +02:00 [INF] Now listening on: http://localhost:53220
+2025-12-06 20:47:34.192 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-06 20:47:34.193 +02:00 [INF] Hosting environment: Development
+2025-12-06 20:47:34.193 +02:00 [INF] Content root path: C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API
+2025-12-06 20:49:35.696 +02:00 [INF] Executed DbCommand (1,397ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 20:50:43.144 +02:00 [INF] Executed DbCommand (364ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 20:50:46.920 +02:00 [INF] Executed DbCommand (199ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-06 20:50:46.938 +02:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-06 20:50:47.153 +02:00 [INF] Executed DbCommand (213ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-06 20:50:47.376 +02:00 [INF] Executed DbCommand (222ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-06 20:50:47.385 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-06 20:50:47.880 +02:00 [INF] Now listening on: https://localhost:56163
+2025-12-06 20:50:47.881 +02:00 [INF] Now listening on: http://localhost:56164
+2025-12-06 20:50:48.276 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-06 20:50:48.276 +02:00 [INF] Hosting environment: Development
+2025-12-06 20:50:48.277 +02:00 [INF] Content root path: C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\CatalogService.API
+2025-12-06 20:51:19.314 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger - null null
+2025-12-06 20:51:19.596 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger - 301 null null 286.6206ms
+2025-12-06 20:51:19.600 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/index.html - null null
+2025-12-06 20:51:19.723 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/index.html - 200 null text/html;charset=utf-8 123.0495ms
+2025-12-06 20:51:19.737 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/swagger-ui.css - null null
+2025-12-06 20:51:19.737 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/swagger-ui-standalone-preset.js - null null
+2025-12-06 20:51:19.737 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/swagger-ui-bundle.js - null null
+2025-12-06 20:51:19.789 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-12-06 20:51:19.789 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-12-06 20:51:19.792 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/swagger-ui.css - 200 152034 text/css 54.6397ms
+2025-12-06 20:51:19.792 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 54.5359ms
+2025-12-06 20:51:19.832 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-12-06 20:51:19.832 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 95.088ms
+2025-12-06 20:51:19.837 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7180/_vs/browserLink - null null
+2025-12-06 20:51:19.837 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7180/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-06 20:51:19.843 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7180/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 5.3172ms
+2025-12-06 20:51:19.933 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7180/_vs/browserLink - 200 null text/javascript; charset=UTF-8 96.2936ms
+2025-12-06 20:51:21.173 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/v1/swagger.json - null null
+2025-12-06 20:51:21.194 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.0134ms
+2025-12-06 20:51:21.241 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7180/swagger/favicon-32x32.png - null null
+2025-12-06 20:51:21.242 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-12-06 20:51:21.242 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7180/swagger/favicon-32x32.png - 200 628 image/png 1.1219ms

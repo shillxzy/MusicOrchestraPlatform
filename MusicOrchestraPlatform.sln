@@ -41,13 +41,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceDefaults", "ServiceD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aggregator", "Aggregator", "{4EB7DC5C-2D2A-4B0D-91D8-5181D8F0B4E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicOrchestraPlatform.AppHost", "..\..\..\Downloads\ПРИКЛАД - OpenTelemetry-examples\OpenTelemetry-examples\MusicOrchestraPlatform.AppHost\MusicOrchestraPlatform.AppHost.csproj", "{36AC8145-63B7-FBB1-906B-88C6807002F9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicOrchestraPlatform.ApiGateway", "MusicOrchestraPlatform.ApiGateway\MusicOrchestraPlatform.ApiGateway.csproj", "{6B5080E5-B115-31EC-70BC-35B4FA178203}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicOrchestraPlatform.Aggregator", "MusicOrchestraPlatform.Aggregator\MusicOrchestraPlatform.Aggregator.csproj", "{33910705-3019-5142-3FBD-265C04BFF98B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicOrchestraPlatform.ServiceDefaults", "MusicOrchestraPlatform.ServiceDefaults\MusicOrchestraPlatform.ServiceDefaults.csproj", "{5B3C4AB3-1E1E-4226-A0E6-9521CE52B114}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicOrchestraPlatform.AppHost", "MusicOrchestraPlatform.AppHost\MusicOrchestraPlatform.AppHost.csproj", "{5833C6CB-EB0B-7C2B-4DC7-F377435B4BD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,10 +103,6 @@ Global
 		{75049D69-CF75-4B10-AC12-62954C73810F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75049D69-CF75-4B10-AC12-62954C73810F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75049D69-CF75-4B10-AC12-62954C73810F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{36AC8145-63B7-FBB1-906B-88C6807002F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36AC8145-63B7-FBB1-906B-88C6807002F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36AC8145-63B7-FBB1-906B-88C6807002F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36AC8145-63B7-FBB1-906B-88C6807002F9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6B5080E5-B115-31EC-70BC-35B4FA178203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6B5080E5-B115-31EC-70BC-35B4FA178203}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B5080E5-B115-31EC-70BC-35B4FA178203}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -119,6 +115,10 @@ Global
 		{5B3C4AB3-1E1E-4226-A0E6-9521CE52B114}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B3C4AB3-1E1E-4226-A0E6-9521CE52B114}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B3C4AB3-1E1E-4226-A0E6-9521CE52B114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5833C6CB-EB0B-7C2B-4DC7-F377435B4BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5833C6CB-EB0B-7C2B-4DC7-F377435B4BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5833C6CB-EB0B-7C2B-4DC7-F377435B4BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5833C6CB-EB0B-7C2B-4DC7-F377435B4BD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -136,10 +136,10 @@ Global
 		{FCB3AEEF-596D-4F7A-A1ED-EDDD6FD07FF3} = {2069AA15-BAD2-47B5-B53D-01449163BC88}
 		{78E72F53-81E8-43D8-BF41-E60856715266} = {2069AA15-BAD2-47B5-B53D-01449163BC88}
 		{75049D69-CF75-4B10-AC12-62954C73810F} = {2069AA15-BAD2-47B5-B53D-01449163BC88}
-		{36AC8145-63B7-FBB1-906B-88C6807002F9} = {C06D79AE-C082-415B-AD1A-C32E2180F7CD}
 		{6B5080E5-B115-31EC-70BC-35B4FA178203} = {F3577D33-A06C-4A62-9263-C645806277B3}
 		{33910705-3019-5142-3FBD-265C04BFF98B} = {4EB7DC5C-2D2A-4B0D-91D8-5181D8F0B4E8}
 		{5B3C4AB3-1E1E-4226-A0E6-9521CE52B114} = {6EEB4327-DFA8-48DE-A491-A9C60A01FC03}
+		{5833C6CB-EB0B-7C2B-4DC7-F377435B4BD8} = {C06D79AE-C082-415B-AD1A-C32E2180F7CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CF13616-B995-4936-AA86-C7E19C910241}

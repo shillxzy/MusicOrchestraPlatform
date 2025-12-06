@@ -1,60 +1,32 @@
+using Dapper;
+using Npgsql;
 using OrderService.DAL.Infrastructure;
 using OrderService.DAL.Repositories.Interfaces;
 using OrderService.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Npgsql;
+
 
 namespace OrderService.DAL.Repositories
 {
-    public class CustomerRepository : GenericRepository<Customer>, ICustomerRepository
+    public class CustomerRepository : ICustomerRepository
     {
         private readonly IConnectFactory _connectionFactory;
 
         public CustomerRepository(IConnectFactory connectionFactory)
-      : base(connectionFactory)
         {
             _connectionFactory = connectionFactory;
         }
-
 
         public async Task<Customer?> GetByIdAsync(int id)
         {
             using var connection = (NpgsqlConnection)_connectionFactory.CreateConnection();
             await connection.OpenAsync();
 
-            var query = @"
-                SELECT Id, Name, Email, CreatedAt, UpdatedAt 
-                FROM Customers 
-                WHERE Id = @Id";
+            var query = @"SELECT Id, Name, Email, CreatedAt, UpdatedAt 
+                          FROM Customers 
+                          WHERE Id = @Id";
 
-            using var command = (NpgsqlCommand)connection.CreateCommand();
-            command.CommandText = query;
-            command.CommandType = CommandType.Text;
-
-            var idParam = command.CreateParameter();
-            idParam.ParameterName = "@Id";
-            idParam.Value = id;
-            command.Parameters.Add(idParam);
-
-            using var reader = await command.ExecuteReaderAsync();
-            if (await reader.ReadAsync())
-            {
-                return new Customer
-                {
-                    Id = reader.GetInt32("Id"),
-                    Name = reader.GetString("Name"),
-                    Email = reader.GetString("Email"),
-                    CreatedAt = reader.GetDateTime("CreatedAt"),
-                    UpdatedAt = reader.IsDBNull("UpdatedAt") ? null : reader.GetDateTime("UpdatedAt")
-                };
-            }
-
-            return null;
+            // Dapper сам мапить результат в Customer
+            return await connection.QueryFirstOrDefaultAsync<Customer>(query, new { Id = id });
         }
 
         public async Task<IEnumerable<Customer>> GetAllAsync()
@@ -62,31 +34,11 @@ namespace OrderService.DAL.Repositories
             using var connection = (NpgsqlConnection)_connectionFactory.CreateConnection();
             await connection.OpenAsync();
 
-            var query = @"
-                SELECT Id, Name, Email, CreatedAt, UpdatedAt 
-                FROM Customers 
-                ORDER BY CreatedAt DESC";
+            var query = @"SELECT Id, Name, Email, CreatedAt, UpdatedAt 
+                          FROM Customers 
+                          ORDER BY CreatedAt DESC";
 
-            using var command = (NpgsqlCommand)connection.CreateCommand();
-            command.CommandText = query;
-            command.CommandType = CommandType.Text;
-
-            var customers = new List<Customer>();
-            using var reader = await command.ExecuteReaderAsync();
-            
-            while (await reader.ReadAsync())
-            {
-                customers.Add(new Customer
-                {
-                    Id = reader.GetInt32("Id"),
-                    Name = reader.GetString("Name"),
-                    Email = reader.GetString("Email"),
-                    CreatedAt = reader.GetDateTime("CreatedAt"),
-                    UpdatedAt = reader.IsDBNull("UpdatedAt") ? null : reader.GetDateTime("UpdatedAt")
-                });
-            }
-
-            return customers;
+            return await connection.QueryAsync<Customer>(query);
         }
 
         public async Task<int> AddAsync(Customer customer)
@@ -94,37 +46,17 @@ namespace OrderService.DAL.Repositories
             using var connection = (NpgsqlConnection)_connectionFactory.CreateConnection();
             await connection.OpenAsync();
 
-            var query = @"
-                INSERT INTO Customers (Name, Email, CreatedAt, UpdatedAt) 
-                VALUES (@Name, @Email, @CreatedAt, @UpdatedAt) 
-                RETURNING Id";
+            var query = @"INSERT INTO Customers (Name, Email, CreatedAt, UpdatedAt) 
+                          VALUES (@Name, @Email, @CreatedAt, @UpdatedAt) 
+                          RETURNING Id";
 
-            using var command = (NpgsqlCommand)connection.CreateCommand();
-            command.CommandText = query;
-            command.CommandType = CommandType.Text;
-
-            var nameParam = command.CreateParameter();
-            nameParam.ParameterName = "@Name";
-            nameParam.Value = customer.Name;
-            command.Parameters.Add(nameParam);
-
-            var emailParam = command.CreateParameter();
-            emailParam.ParameterName = "@Email";
-            emailParam.Value = customer.Email;
-            command.Parameters.Add(emailParam);
-
-            var createdAtParam = command.CreateParameter();
-            createdAtParam.ParameterName = "@CreatedAt";
-            createdAtParam.Value = customer.CreatedAt;
-            command.Parameters.Add(createdAtParam);
-
-            var updatedAtParam = command.CreateParameter();
-            updatedAtParam.ParameterName = "@UpdatedAt";
-            updatedAtParam.Value = customer.UpdatedAt ?? (object)DBNull.Value;
-            command.Parameters.Add(updatedAtParam);
-
-            var result = await command.ExecuteScalarAsync();
-            return Convert.ToInt32(result);
+            return await connection.ExecuteScalarAsync<int>(query, new
+            {
+                customer.Name,
+                customer.Email,
+                customer.CreatedAt,
+                UpdatedAt = customer.UpdatedAt
+            });
         }
 
         public async Task UpdateAsync(Customer customer)
@@ -132,36 +64,17 @@ namespace OrderService.DAL.Repositories
             using var connection = (NpgsqlConnection)_connectionFactory.CreateConnection();
             await connection.OpenAsync();
 
-            var query = @"
-                UPDATE Customers 
-                SET Name = @Name, Email = @Email, UpdatedAt = @UpdatedAt 
-                WHERE Id = @Id";
+            var query = @"UPDATE Customers 
+                          SET Name = @Name, Email = @Email, UpdatedAt = @UpdatedAt 
+                          WHERE Id = @Id";
 
-            using var command = (NpgsqlCommand)connection.CreateCommand();
-            command.CommandText = query;
-            command.CommandType = CommandType.Text;
-
-            var idParam = command.CreateParameter();
-            idParam.ParameterName = "@Id";
-            idParam.Value = customer.Id;
-            command.Parameters.Add(idParam);
-
-            var nameParam = command.CreateParameter();
-            nameParam.ParameterName = "@Name";
-            nameParam.Value = customer.Name;
-            command.Parameters.Add(nameParam);
-
-            var emailParam = command.CreateParameter();
-            emailParam.ParameterName = "@Email";
-            emailParam.Value = customer.Email;
-            command.Parameters.Add(emailParam);
-
-            var updatedAtParam = command.CreateParameter();
-            updatedAtParam.ParameterName = "@UpdatedAt";
-            updatedAtParam.Value = customer.UpdatedAt ?? DateTime.UtcNow;
-            command.Parameters.Add(updatedAtParam);
-
-            await command.ExecuteNonQueryAsync();
+            await connection.ExecuteAsync(query, new
+            {
+                customer.Id,
+                customer.Name,
+                customer.Email,
+                UpdatedAt = customer.UpdatedAt ?? System.DateTime.UtcNow
+            });
         }
 
         public async Task DeleteAsync(int id)
@@ -169,18 +82,9 @@ namespace OrderService.DAL.Repositories
             using var connection = (NpgsqlConnection)_connectionFactory.CreateConnection();
             await connection.OpenAsync();
 
-            var query = "DELETE FROM Customers WHERE Id = @Id";
+            var query = @"DELETE FROM Customers WHERE Id = @Id";
 
-            using var command = (NpgsqlCommand)connection.CreateCommand();
-            command.CommandText = query;
-            command.CommandType = CommandType.Text;
-
-            var idParam = command.CreateParameter();
-            idParam.ParameterName = "@Id";
-            idParam.Value = id;
-            command.Parameters.Add(idParam);
-
-            await command.ExecuteNonQueryAsync();
+            await connection.ExecuteAsync(query, new { Id = id });
         }
     }
 }

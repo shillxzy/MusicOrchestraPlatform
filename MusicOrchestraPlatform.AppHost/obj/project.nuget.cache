@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V8j7kieFDdE=",
+  "dgSpecHash": "7A6B0XVau/E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Shillxzy\\Downloads\\ПРИКЛАД - OpenTelemetry-examples\\OpenTelemetry-examples\\MusicOrchestraPlatform.AppHost\\MusicOrchestraPlatform.AppHost.csproj",
+  "projectFilePath": "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraPlatform.AppHost\\MusicOrchestraPlatform.AppHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Shillxzy\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.5.0\\aspire.dashboard.sdk.win-x64.9.5.0.nupkg.sha512",
     "C:\\Users\\Shillxzy\\.nuget\\packages\\aspire.hosting\\9.5.2\\aspire.hosting.9.5.2.nupkg.sha512",

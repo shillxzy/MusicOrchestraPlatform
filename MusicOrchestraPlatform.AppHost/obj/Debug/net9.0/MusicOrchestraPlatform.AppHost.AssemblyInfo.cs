@@ -17,17 +17,17 @@ using System.Reflection;
     "s\\ext\\")]
 [assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\Shillxzy\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.0\\tool" +
     "s\\ext\\bin\\")]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\Shillxzy\\Downloads\\ПРИКЛАД - OpenTelemetry-examples\\OpenTelemetry-exampl" +
-    "es\\MusicOrchestraPlatform.AppHost")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraPlatform.AppH" +
+    "ost")]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "MusicOrchestraPlatform.AppHost.csproj")]
 [assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\Shillxzy\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.5.0\\tools\\Aspire" +
     ".Dashboard.exe")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "C:\\Users\\Shillxzy\\Downloads\\ПРИКЛАД - OpenTelemetry-examples\\OpenTelemetry-exampl" +
-    "es\\MusicOrchestraPlatform.AppHost\\obj\\")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "C:\\Users\\Shillxzy\\source\\repos\\MusicOrchestraPlatform\\MusicOrchestraPlatform.AppH" +
+    "ost\\obj\\")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MusicOrchestraPlatform.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5cb4d6ccf74a4eccf38199c43229cfadd45d604")]
 [assembly: System.Reflection.AssemblyProductAttribute("MusicOrchestraPlatform.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MusicOrchestraPlatform.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

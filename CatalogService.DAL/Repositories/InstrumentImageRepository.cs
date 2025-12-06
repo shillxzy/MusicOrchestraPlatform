@@ -1,5 +1,6 @@
 ﻿using CatalogService.DAL.Data;
 using CatalogService.DAL.Repositories.Interfaces;
+using CatalogService.DAL.Specifications;
 using CatalogService.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
@@ -17,11 +18,14 @@ namespace CatalogService.DAL.Repositories
             _context = context;
         }
 
-        public async Task<IEnumerable<InstrumentImage>> GetAllAsync() =>
-            await _context.InstrumentImages
-                .Include(img => img.Instrument)
+        public async Task<IEnumerable<InstrumentImage>> GetAllAsync(ISpecification<InstrumentImage> specification)
+        {
+            return await _context.InstrumentImages
+                .Where(specification.ToExpression())   
+                .Include(img => img.Instrument)        
                 .OrderBy(img => img.Id)
                 .ToListAsync();
+        }
 
         public async Task<InstrumentImage?> GetByIdAsync(int id) =>
             await _context.InstrumentImages

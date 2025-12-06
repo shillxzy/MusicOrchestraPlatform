@@ -121,3 +121,4 @@ C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.API\bi
 C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.API\bin\Debug\net8.0\OpenTelemetry.Extensions.Hosting.dll
 C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.API\bin\Debug\net8.0\OpenTelemetry.Instrumentation.AspNetCore.dll
 C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.API\bin\Debug\net8.0\OpenTelemetry.Instrumentation.Http.dll
+C:\Users\Shillxzy\source\repos\MusicOrchestraPlatform\MusicOrchestraOrder.API\bin\Debug\net8.0\Dapper.dll
